@@ -1,5 +1,5 @@
 # Projeto2AED
 
-## JOGO GAME ARCADE 
+## SISTEMA DE CADASTRO DE VÔOS
 
-Jogo 2d básico para projeto EADII 
+Sistema de cadastro simples de voo. 
