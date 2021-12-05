@@ -33,20 +33,20 @@
             this.label2 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
             this.title = new System.Windows.Forms.Label();
-            this.guna2TextBox1 = new Guna.UI2.WinForms.Guna2TextBox();
+            this.nameClient = new Guna.UI2.WinForms.Guna2TextBox();
             this.label3 = new System.Windows.Forms.Label();
-            this.guna2TextBox2 = new Guna.UI2.WinForms.Guna2TextBox();
+            this.nmr_passaport = new Guna.UI2.WinForms.Guna2TextBox();
             this.label4 = new System.Windows.Forms.Label();
-            this.guna2TextBox3 = new Guna.UI2.WinForms.Guna2TextBox();
+            this.end_passport = new Guna.UI2.WinForms.Guna2TextBox();
             this.label5 = new System.Windows.Forms.Label();
-            this.comboBox2 = new System.Windows.Forms.ComboBox();
+            this.nat_passenger = new System.Windows.Forms.ComboBox();
             this.label6 = new System.Windows.Forms.Label();
-            this.comboBox1 = new System.Windows.Forms.ComboBox();
+            this.gen_passenger = new System.Windows.Forms.ComboBox();
             this.label7 = new System.Windows.Forms.Label();
-            this.guna2TextBox4 = new Guna.UI2.WinForms.Guna2TextBox();
+            this.nmr_client = new Guna.UI2.WinForms.Guna2TextBox();
             this.label8 = new System.Windows.Forms.Label();
             this.reset_button_new_fly = new Guna.UI2.WinForms.Guna2Button();
-            this.Button_new_flight = new Guna.UI2.WinForms.Guna2Button();
+            this.Button_new_passenger = new Guna.UI2.WinForms.Guna2Button();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.close_add_passanger = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
@@ -110,30 +110,30 @@
             this.title.Text = "Airplane Voos";
             this.title.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // guna2TextBox1
+            // nameClient
             // 
-            this.guna2TextBox1.Cursor = System.Windows.Forms.Cursors.IBeam;
-            this.guna2TextBox1.DefaultText = "";
-            this.guna2TextBox1.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
-            this.guna2TextBox1.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
-            this.guna2TextBox1.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.guna2TextBox1.DisabledState.Parent = this.guna2TextBox1;
-            this.guna2TextBox1.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.guna2TextBox1.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.guna2TextBox1.FocusedState.Parent = this.guna2TextBox1;
-            this.guna2TextBox1.Font = new System.Drawing.Font("Arial", 12F);
-            this.guna2TextBox1.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.guna2TextBox1.HoverState.Parent = this.guna2TextBox1;
-            this.guna2TextBox1.Location = new System.Drawing.Point(314, 267);
-            this.guna2TextBox1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
-            this.guna2TextBox1.MaxLength = 4;
-            this.guna2TextBox1.Name = "guna2TextBox1";
-            this.guna2TextBox1.PasswordChar = '\0';
-            this.guna2TextBox1.PlaceholderText = "Digite o nome";
-            this.guna2TextBox1.SelectedText = "";
-            this.guna2TextBox1.ShadowDecoration.Parent = this.guna2TextBox1;
-            this.guna2TextBox1.Size = new System.Drawing.Size(159, 43);
-            this.guna2TextBox1.TabIndex = 23;
+            this.nameClient.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.nameClient.DefaultText = "";
+            this.nameClient.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
+            this.nameClient.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
+            this.nameClient.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.nameClient.DisabledState.Parent = this.nameClient;
+            this.nameClient.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.nameClient.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.nameClient.FocusedState.Parent = this.nameClient;
+            this.nameClient.Font = new System.Drawing.Font("Arial", 12F);
+            this.nameClient.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.nameClient.HoverState.Parent = this.nameClient;
+            this.nameClient.Location = new System.Drawing.Point(314, 267);
+            this.nameClient.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.nameClient.MaxLength = 5000;
+            this.nameClient.Name = "nameClient";
+            this.nameClient.PasswordChar = '\0';
+            this.nameClient.PlaceholderText = "Digite o nome";
+            this.nameClient.SelectedText = "";
+            this.nameClient.ShadowDecoration.Parent = this.nameClient;
+            this.nameClient.Size = new System.Drawing.Size(159, 43);
+            this.nameClient.TabIndex = 23;
             // 
             // label3
             // 
@@ -146,30 +146,30 @@
             this.label3.Text = "Nome do cliente:";
             this.label3.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // guna2TextBox2
+            // nmr_passaport
             // 
-            this.guna2TextBox2.Cursor = System.Windows.Forms.Cursors.IBeam;
-            this.guna2TextBox2.DefaultText = "";
-            this.guna2TextBox2.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
-            this.guna2TextBox2.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
-            this.guna2TextBox2.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.guna2TextBox2.DisabledState.Parent = this.guna2TextBox2;
-            this.guna2TextBox2.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.guna2TextBox2.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.guna2TextBox2.FocusedState.Parent = this.guna2TextBox2;
-            this.guna2TextBox2.Font = new System.Drawing.Font("Arial", 12F);
-            this.guna2TextBox2.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.guna2TextBox2.HoverState.Parent = this.guna2TextBox2;
-            this.guna2TextBox2.Location = new System.Drawing.Point(314, 350);
-            this.guna2TextBox2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
-            this.guna2TextBox2.MaxLength = 4;
-            this.guna2TextBox2.Name = "guna2TextBox2";
-            this.guna2TextBox2.PasswordChar = '\0';
-            this.guna2TextBox2.PlaceholderText = "Digite o nmr pass.";
-            this.guna2TextBox2.SelectedText = "";
-            this.guna2TextBox2.ShadowDecoration.Parent = this.guna2TextBox2;
-            this.guna2TextBox2.Size = new System.Drawing.Size(159, 43);
-            this.guna2TextBox2.TabIndex = 25;
+            this.nmr_passaport.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.nmr_passaport.DefaultText = "";
+            this.nmr_passaport.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
+            this.nmr_passaport.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
+            this.nmr_passaport.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.nmr_passaport.DisabledState.Parent = this.nmr_passaport;
+            this.nmr_passaport.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.nmr_passaport.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.nmr_passaport.FocusedState.Parent = this.nmr_passaport;
+            this.nmr_passaport.Font = new System.Drawing.Font("Arial", 12F);
+            this.nmr_passaport.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.nmr_passaport.HoverState.Parent = this.nmr_passaport;
+            this.nmr_passaport.Location = new System.Drawing.Point(314, 350);
+            this.nmr_passaport.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.nmr_passaport.MaxLength = 30;
+            this.nmr_passaport.Name = "nmr_passaport";
+            this.nmr_passaport.PasswordChar = '\0';
+            this.nmr_passaport.PlaceholderText = "Digite o nmr pass.";
+            this.nmr_passaport.SelectedText = "";
+            this.nmr_passaport.ShadowDecoration.Parent = this.nmr_passaport;
+            this.nmr_passaport.Size = new System.Drawing.Size(159, 43);
+            this.nmr_passaport.TabIndex = 25;
             // 
             // label4
             // 
@@ -182,30 +182,30 @@
             this.label4.Text = "Número do passaporte:";
             this.label4.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // guna2TextBox3
+            // end_passport
             // 
-            this.guna2TextBox3.Cursor = System.Windows.Forms.Cursors.IBeam;
-            this.guna2TextBox3.DefaultText = "";
-            this.guna2TextBox3.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
-            this.guna2TextBox3.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
-            this.guna2TextBox3.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.guna2TextBox3.DisabledState.Parent = this.guna2TextBox3;
-            this.guna2TextBox3.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.guna2TextBox3.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.guna2TextBox3.FocusedState.Parent = this.guna2TextBox3;
-            this.guna2TextBox3.Font = new System.Drawing.Font("Arial", 12F);
-            this.guna2TextBox3.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.guna2TextBox3.HoverState.Parent = this.guna2TextBox3;
-            this.guna2TextBox3.Location = new System.Drawing.Point(312, 427);
-            this.guna2TextBox3.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
-            this.guna2TextBox3.MaxLength = 4;
-            this.guna2TextBox3.Name = "guna2TextBox3";
-            this.guna2TextBox3.PasswordChar = '\0';
-            this.guna2TextBox3.PlaceholderText = "Digite o end. pass.";
-            this.guna2TextBox3.SelectedText = "";
-            this.guna2TextBox3.ShadowDecoration.Parent = this.guna2TextBox3;
-            this.guna2TextBox3.Size = new System.Drawing.Size(159, 43);
-            this.guna2TextBox3.TabIndex = 27;
+            this.end_passport.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.end_passport.DefaultText = "";
+            this.end_passport.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
+            this.end_passport.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
+            this.end_passport.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.end_passport.DisabledState.Parent = this.end_passport;
+            this.end_passport.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.end_passport.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.end_passport.FocusedState.Parent = this.end_passport;
+            this.end_passport.Font = new System.Drawing.Font("Arial", 12F);
+            this.end_passport.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.end_passport.HoverState.Parent = this.end_passport;
+            this.end_passport.Location = new System.Drawing.Point(312, 427);
+            this.end_passport.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.end_passport.MaxLength = 450000;
+            this.end_passport.Name = "end_passport";
+            this.end_passport.PasswordChar = '\0';
+            this.end_passport.PlaceholderText = "Digite o end. pass.";
+            this.end_passport.SelectedText = "";
+            this.end_passport.ShadowDecoration.Parent = this.end_passport;
+            this.end_passport.Size = new System.Drawing.Size(159, 43);
+            this.end_passport.TabIndex = 27;
             // 
             // label5
             // 
@@ -218,14 +218,17 @@
             this.label5.Text = "Endereço do passaporte:";
             this.label5.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // comboBox2
+            // nat_passenger
             // 
-            this.comboBox2.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.comboBox2.FormattingEnabled = true;
-            this.comboBox2.Location = new System.Drawing.Point(145, 591);
-            this.comboBox2.Name = "comboBox2";
-            this.comboBox2.Size = new System.Drawing.Size(182, 27);
-            this.comboBox2.TabIndex = 29;
+            this.nat_passenger.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.nat_passenger.FormattingEnabled = true;
+            this.nat_passenger.Items.AddRange(new object[] {
+            "Brasileiro",
+            "Árabe"});
+            this.nat_passenger.Location = new System.Drawing.Point(145, 591);
+            this.nat_passenger.Name = "nat_passenger";
+            this.nat_passenger.Size = new System.Drawing.Size(182, 27);
+            this.nat_passenger.TabIndex = 29;
             // 
             // label6
             // 
@@ -238,14 +241,17 @@
             this.label6.Text = "Nacionalidade";
             this.label6.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // comboBox1
+            // gen_passenger
             // 
-            this.comboBox1.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.comboBox1.FormattingEnabled = true;
-            this.comboBox1.Location = new System.Drawing.Point(418, 593);
-            this.comboBox1.Name = "comboBox1";
-            this.comboBox1.Size = new System.Drawing.Size(182, 27);
-            this.comboBox1.TabIndex = 31;
+            this.gen_passenger.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.gen_passenger.FormattingEnabled = true;
+            this.gen_passenger.Items.AddRange(new object[] {
+            "Masculino",
+            "Feminino "});
+            this.gen_passenger.Location = new System.Drawing.Point(418, 593);
+            this.gen_passenger.Name = "gen_passenger";
+            this.gen_passenger.Size = new System.Drawing.Size(182, 27);
+            this.gen_passenger.TabIndex = 31;
             // 
             // label7
             // 
@@ -258,30 +264,30 @@
             this.label7.Text = "Gênero";
             this.label7.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // guna2TextBox4
+            // nmr_client
             // 
-            this.guna2TextBox4.Cursor = System.Windows.Forms.Cursors.IBeam;
-            this.guna2TextBox4.DefaultText = "";
-            this.guna2TextBox4.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
-            this.guna2TextBox4.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
-            this.guna2TextBox4.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.guna2TextBox4.DisabledState.Parent = this.guna2TextBox4;
-            this.guna2TextBox4.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.guna2TextBox4.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.guna2TextBox4.FocusedState.Parent = this.guna2TextBox4;
-            this.guna2TextBox4.Font = new System.Drawing.Font("Arial", 12F);
-            this.guna2TextBox4.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.guna2TextBox4.HoverState.Parent = this.guna2TextBox4;
-            this.guna2TextBox4.Location = new System.Drawing.Point(312, 502);
-            this.guna2TextBox4.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
-            this.guna2TextBox4.MaxLength = 4;
-            this.guna2TextBox4.Name = "guna2TextBox4";
-            this.guna2TextBox4.PasswordChar = '\0';
-            this.guna2TextBox4.PlaceholderText = "Digite o telefone";
-            this.guna2TextBox4.SelectedText = "";
-            this.guna2TextBox4.ShadowDecoration.Parent = this.guna2TextBox4;
-            this.guna2TextBox4.Size = new System.Drawing.Size(159, 43);
-            this.guna2TextBox4.TabIndex = 33;
+            this.nmr_client.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.nmr_client.DefaultText = "";
+            this.nmr_client.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
+            this.nmr_client.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
+            this.nmr_client.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.nmr_client.DisabledState.Parent = this.nmr_client;
+            this.nmr_client.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.nmr_client.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.nmr_client.FocusedState.Parent = this.nmr_client;
+            this.nmr_client.Font = new System.Drawing.Font("Arial", 12F);
+            this.nmr_client.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.nmr_client.HoverState.Parent = this.nmr_client;
+            this.nmr_client.Location = new System.Drawing.Point(312, 502);
+            this.nmr_client.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.nmr_client.MaxLength = 11;
+            this.nmr_client.Name = "nmr_client";
+            this.nmr_client.PasswordChar = '\0';
+            this.nmr_client.PlaceholderText = "Digite o telefone";
+            this.nmr_client.SelectedText = "";
+            this.nmr_client.ShadowDecoration.Parent = this.nmr_client;
+            this.nmr_client.Size = new System.Drawing.Size(159, 43);
+            this.nmr_client.TabIndex = 33;
             // 
             // label8
             // 
@@ -314,24 +320,25 @@
             this.reset_button_new_fly.TabIndex = 35;
             this.reset_button_new_fly.Text = "Resetar";
             // 
-            // Button_new_flight
+            // Button_new_passenger
             // 
-            this.Button_new_flight.CheckedState.Parent = this.Button_new_flight;
-            this.Button_new_flight.CustomImages.Parent = this.Button_new_flight;
-            this.Button_new_flight.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
-            this.Button_new_flight.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
-            this.Button_new_flight.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
-            this.Button_new_flight.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
-            this.Button_new_flight.DisabledState.Parent = this.Button_new_flight;
-            this.Button_new_flight.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.Button_new_flight.ForeColor = System.Drawing.Color.White;
-            this.Button_new_flight.HoverState.Parent = this.Button_new_flight;
-            this.Button_new_flight.Location = new System.Drawing.Point(463, 718);
-            this.Button_new_flight.Name = "Button_new_flight";
-            this.Button_new_flight.ShadowDecoration.Parent = this.Button_new_flight;
-            this.Button_new_flight.Size = new System.Drawing.Size(114, 45);
-            this.Button_new_flight.TabIndex = 34;
-            this.Button_new_flight.Text = "Salvar";
+            this.Button_new_passenger.CheckedState.Parent = this.Button_new_passenger;
+            this.Button_new_passenger.CustomImages.Parent = this.Button_new_passenger;
+            this.Button_new_passenger.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.Button_new_passenger.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.Button_new_passenger.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.Button_new_passenger.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.Button_new_passenger.DisabledState.Parent = this.Button_new_passenger;
+            this.Button_new_passenger.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.Button_new_passenger.ForeColor = System.Drawing.Color.White;
+            this.Button_new_passenger.HoverState.Parent = this.Button_new_passenger;
+            this.Button_new_passenger.Location = new System.Drawing.Point(463, 718);
+            this.Button_new_passenger.Name = "Button_new_passenger";
+            this.Button_new_passenger.ShadowDecoration.Parent = this.Button_new_passenger;
+            this.Button_new_passenger.Size = new System.Drawing.Size(114, 45);
+            this.Button_new_passenger.TabIndex = 34;
+            this.Button_new_passenger.Text = "Salvar";
+            this.Button_new_passenger.Click += new System.EventHandler(this.Button_new_passenger_Click);
             // 
             // pictureBox1
             // 
@@ -365,18 +372,18 @@
             this.Controls.Add(this.close_add_passanger);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.reset_button_new_fly);
-            this.Controls.Add(this.Button_new_flight);
-            this.Controls.Add(this.guna2TextBox4);
+            this.Controls.Add(this.Button_new_passenger);
+            this.Controls.Add(this.nmr_client);
             this.Controls.Add(this.label8);
-            this.Controls.Add(this.comboBox1);
+            this.Controls.Add(this.gen_passenger);
             this.Controls.Add(this.label7);
-            this.Controls.Add(this.comboBox2);
+            this.Controls.Add(this.nat_passenger);
             this.Controls.Add(this.label6);
-            this.Controls.Add(this.guna2TextBox3);
+            this.Controls.Add(this.end_passport);
             this.Controls.Add(this.label5);
-            this.Controls.Add(this.guna2TextBox2);
+            this.Controls.Add(this.nmr_passaport);
             this.Controls.Add(this.label4);
-            this.Controls.Add(this.guna2TextBox1);
+            this.Controls.Add(this.nameClient);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.text_input_login);
             this.Controls.Add(this.label2);
@@ -397,20 +404,20 @@
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label title;
-        private Guna.UI2.WinForms.Guna2TextBox guna2TextBox1;
+        private Guna.UI2.WinForms.Guna2TextBox nameClient;
         private System.Windows.Forms.Label label3;
-        private Guna.UI2.WinForms.Guna2TextBox guna2TextBox2;
+        private Guna.UI2.WinForms.Guna2TextBox nmr_passaport;
         private System.Windows.Forms.Label label4;
-        private Guna.UI2.WinForms.Guna2TextBox guna2TextBox3;
+        private Guna.UI2.WinForms.Guna2TextBox end_passport;
         private System.Windows.Forms.Label label5;
-        private System.Windows.Forms.ComboBox comboBox2;
+        private System.Windows.Forms.ComboBox nat_passenger;
         private System.Windows.Forms.Label label6;
-        private System.Windows.Forms.ComboBox comboBox1;
+        private System.Windows.Forms.ComboBox gen_passenger;
         private System.Windows.Forms.Label label7;
-        private Guna.UI2.WinForms.Guna2TextBox guna2TextBox4;
+        private Guna.UI2.WinForms.Guna2TextBox nmr_client;
         private System.Windows.Forms.Label label8;
         private Guna.UI2.WinForms.Guna2Button reset_button_new_fly;
-        private Guna.UI2.WinForms.Guna2Button Button_new_flight;
+        private Guna.UI2.WinForms.Guna2Button Button_new_passenger;
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.Button close_add_passanger;
     }
