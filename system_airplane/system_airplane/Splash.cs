@@ -17,8 +17,18 @@ namespace system_airplane
         {
             InitializeComponent();
 
+            my_progress_bar();
         }
 
+        private void progress_bar_ValueChanged(object sender, EventArgs e)
+        {
+           
+        }
+
+        public void my_progress_bar()
+        {
+
+        }
     }
 
 }

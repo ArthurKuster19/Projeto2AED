@@ -68,10 +68,10 @@
             this.text_input_login.HoverState.Parent = this.text_input_login;
             this.text_input_login.Location = new System.Drawing.Point(312, 185);
             this.text_input_login.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
-            this.text_input_login.MaxLength = 4;
+            this.text_input_login.MaxLength = 11;
             this.text_input_login.Name = "text_input_login";
             this.text_input_login.PasswordChar = '\0';
-            this.text_input_login.PlaceholderText = "Digite o id";
+            this.text_input_login.PlaceholderText = "Digite o CPF";
             this.text_input_login.SelectedText = "";
             this.text_input_login.ShadowDecoration.Parent = this.text_input_login;
             this.text_input_login.Size = new System.Drawing.Size(159, 43);
@@ -83,9 +83,9 @@
             this.label2.Font = new System.Drawing.Font("Cascadia Code", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.Location = new System.Drawing.Point(17, 189);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(144, 28);
+            this.label2.Size = new System.Drawing.Size(156, 28);
             this.label2.TabIndex = 20;
-            this.label2.Text = "Cliente Id:";
+            this.label2.Text = "CPF Cliente:";
             this.label2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // label1

@@ -50,7 +50,7 @@
             // 
             this.title.AutoSize = true;
             this.title.Font = new System.Drawing.Font("Cascadia Code", 27.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.title.Location = new System.Drawing.Point(619, 256);
+            this.title.Location = new System.Drawing.Point(616, 256);
             this.title.Name = "title";
             this.title.Size = new System.Drawing.Size(308, 49);
             this.title.TabIndex = 1;
@@ -69,6 +69,7 @@
             this.progress_bar.Text = "ProgressBar";
             this.progress_bar.TextRenderingHint = System.Drawing.Text.TextRenderingHint.SystemDefault;
             this.progress_bar.UseWaitCursor = true;
+            this.progress_bar.ValueChanged += new System.EventHandler(this.progress_bar_ValueChanged);
             // 
             // Splash
             // 
