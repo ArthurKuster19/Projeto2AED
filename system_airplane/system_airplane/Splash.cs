@@ -16,6 +16,7 @@ namespace system_airplane
         public Splash()
         {
             InitializeComponent();
+<<<<<<< HEAD
 
             my_progress_bar();
         }
@@ -28,6 +29,32 @@ namespace system_airplane
         public void my_progress_bar()
         {
 
+=======
+        }
+
+        int startpoint = 0;
+
+        private void timer1_Tick(object sender, EventArgs e)
+        {
+            startpoint += 1;
+            Myprogress.Value = startpoint;
+
+            if (Myprogress.Value == 100)
+            {
+                Myprogress.Value = 0;
+                timer1.Stop();
+                
+                Login login = new Login();
+
+                login.Show();
+                this.Hide();
+            }
+        }
+
+        private void Splash_Load(object sender, EventArgs e)
+        {
+            timer1.Start();
+>>>>>>> 1538db826358f02ffff7f24fdf3c76c27cb60b3b
         }
     }
 

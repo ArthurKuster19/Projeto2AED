@@ -39,7 +39,11 @@ namespace system_airplane
                 {
                     Con.Open();
 
+<<<<<<< HEAD
                     string query = "insert into PassengerTbl values(" + text_input_login.Text + ",'" + nameClient.Text + "', " + nmr_passaport.Text + ", '" + end_passport.Text + "', '" + nat_passenger.SelectedItem.ToString() + "', '" + gen_passenger.SelectedItem.ToString() + "', " + nmr_client.Text + " )";
+=======
+                    string query= "insert into PassengerTbl values("+ text_input_login.Text +",'"+nameClient.Text+"', "+ nmr_passaport.Text + ", '" + end_passport.Text + "', '" + nat_passenger.SelectedItem.ToString() + "', '" + gen_passenger.SelectedItem.ToString() + "', " + nmr_client.Text + " )";
+>>>>>>> 1538db826358f02ffff7f24fdf3c76c27cb60b3b
 
                     SqlCommand cmd = new SqlCommand(query, Con);
 
@@ -57,6 +61,24 @@ namespace system_airplane
                 
             }
             
+        }
+
+        private void view_passenger_Click(object sender, EventArgs e)
+        {
+            ViewPassenger view = new ViewPassenger();
+            view.Show();
+            this.Hide();
+        }
+
+        private void reset_button_addPassenger_Click(object sender, EventArgs e)
+        {
+            text_input_login.Text = "";
+            nameClient.Text = "";
+            nmr_passaport.Text = "";
+            end_passport.Text = "";
+            nmr_client.Text = "";
+            nat_passenger.SelectedItem = null;
+            gen_passenger.SelectedItem = null;
         }
     }
 }

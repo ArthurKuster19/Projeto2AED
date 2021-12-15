@@ -45,10 +45,11 @@
             this.label7 = new System.Windows.Forms.Label();
             this.nmr_client = new Guna.UI2.WinForms.Guna2TextBox();
             this.label8 = new System.Windows.Forms.Label();
-            this.reset_button_new_fly = new Guna.UI2.WinForms.Guna2Button();
+            this.reset_button_addPassenger = new Guna.UI2.WinForms.Guna2Button();
             this.Button_new_passenger = new Guna.UI2.WinForms.Guna2Button();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.close_add_passanger = new System.Windows.Forms.Button();
+            this.view_passenger = new Guna.UI2.WinForms.Guna2Button();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -85,7 +86,11 @@
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(156, 28);
             this.label2.TabIndex = 20;
+<<<<<<< HEAD
             this.label2.Text = "CPF Cliente:";
+=======
+            this.label2.Text = "Cliente CPF:";
+>>>>>>> 1538db826358f02ffff7f24fdf3c76c27cb60b3b
             this.label2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // label1
@@ -223,6 +228,7 @@
             this.nat_passenger.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.nat_passenger.FormattingEnabled = true;
             this.nat_passenger.Items.AddRange(new object[] {
+            "",
             "Brasileiro",
             "Árabe"});
             this.nat_passenger.Location = new System.Drawing.Point(145, 591);
@@ -246,6 +252,7 @@
             this.gen_passenger.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.gen_passenger.FormattingEnabled = true;
             this.gen_passenger.Items.AddRange(new object[] {
+            "",
             "Masculino",
             "Feminino "});
             this.gen_passenger.Location = new System.Drawing.Point(418, 593);
@@ -257,11 +264,11 @@
             // 
             this.label7.AutoSize = true;
             this.label7.Font = new System.Drawing.Font("Cascadia Code", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label7.Location = new System.Drawing.Point(348, 594);
+            this.label7.Location = new System.Drawing.Point(366, 594);
             this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(64, 21);
+            this.label7.Size = new System.Drawing.Size(46, 21);
             this.label7.TabIndex = 30;
-            this.label7.Text = "Gênero";
+            this.label7.Text = "Sexo";
             this.label7.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // nmr_client
@@ -283,7 +290,7 @@
             this.nmr_client.MaxLength = 11;
             this.nmr_client.Name = "nmr_client";
             this.nmr_client.PasswordChar = '\0';
-            this.nmr_client.PlaceholderText = "Digite o telefone";
+            this.nmr_client.PlaceholderText = "Digite o número";
             this.nmr_client.SelectedText = "";
             this.nmr_client.ShadowDecoration.Parent = this.nmr_client;
             this.nmr_client.Size = new System.Drawing.Size(159, 43);
@@ -297,28 +304,29 @@
             this.label8.Name = "label8";
             this.label8.Size = new System.Drawing.Size(228, 28);
             this.label8.TabIndex = 32;
-            this.label8.Text = "Número do cliente:";
+            this.label8.Text = "Número de celular:";
             this.label8.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // reset_button_new_fly
+            // reset_button_addPassenger
             // 
-            this.reset_button_new_fly.CheckedState.Parent = this.reset_button_new_fly;
-            this.reset_button_new_fly.CustomImages.Parent = this.reset_button_new_fly;
-            this.reset_button_new_fly.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
-            this.reset_button_new_fly.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
-            this.reset_button_new_fly.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
-            this.reset_button_new_fly.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
-            this.reset_button_new_fly.DisabledState.Parent = this.reset_button_new_fly;
-            this.reset_button_new_fly.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(128)))));
-            this.reset_button_new_fly.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.reset_button_new_fly.ForeColor = System.Drawing.Color.White;
-            this.reset_button_new_fly.HoverState.Parent = this.reset_button_new_fly;
-            this.reset_button_new_fly.Location = new System.Drawing.Point(609, 718);
-            this.reset_button_new_fly.Name = "reset_button_new_fly";
-            this.reset_button_new_fly.ShadowDecoration.Parent = this.reset_button_new_fly;
-            this.reset_button_new_fly.Size = new System.Drawing.Size(114, 45);
-            this.reset_button_new_fly.TabIndex = 35;
-            this.reset_button_new_fly.Text = "Resetar";
+            this.reset_button_addPassenger.CheckedState.Parent = this.reset_button_addPassenger;
+            this.reset_button_addPassenger.CustomImages.Parent = this.reset_button_addPassenger;
+            this.reset_button_addPassenger.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.reset_button_addPassenger.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.reset_button_addPassenger.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.reset_button_addPassenger.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.reset_button_addPassenger.DisabledState.Parent = this.reset_button_addPassenger;
+            this.reset_button_addPassenger.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(128)))));
+            this.reset_button_addPassenger.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.reset_button_addPassenger.ForeColor = System.Drawing.Color.White;
+            this.reset_button_addPassenger.HoverState.Parent = this.reset_button_addPassenger;
+            this.reset_button_addPassenger.Location = new System.Drawing.Point(486, 718);
+            this.reset_button_addPassenger.Name = "reset_button_addPassenger";
+            this.reset_button_addPassenger.ShadowDecoration.Parent = this.reset_button_addPassenger;
+            this.reset_button_addPassenger.Size = new System.Drawing.Size(114, 45);
+            this.reset_button_addPassenger.TabIndex = 35;
+            this.reset_button_addPassenger.Text = "Resetar";
+            this.reset_button_addPassenger.Click += new System.EventHandler(this.reset_button_addPassenger_Click);
             // 
             // Button_new_passenger
             // 
@@ -332,7 +340,7 @@
             this.Button_new_passenger.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.Button_new_passenger.ForeColor = System.Drawing.Color.White;
             this.Button_new_passenger.HoverState.Parent = this.Button_new_passenger;
-            this.Button_new_passenger.Location = new System.Drawing.Point(463, 718);
+            this.Button_new_passenger.Location = new System.Drawing.Point(340, 718);
             this.Button_new_passenger.Name = "Button_new_passenger";
             this.Button_new_passenger.ShadowDecoration.Parent = this.Button_new_passenger;
             this.Button_new_passenger.Size = new System.Drawing.Size(114, 45);
@@ -363,15 +371,37 @@
             this.close_add_passanger.UseVisualStyleBackColor = false;
             this.close_add_passanger.Click += new System.EventHandler(this.close_add_passanger_Click);
             // 
+            // view_passenger
+            // 
+            this.view_passenger.CheckedState.Parent = this.view_passenger;
+            this.view_passenger.CustomImages.Parent = this.view_passenger;
+            this.view_passenger.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.view_passenger.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.view_passenger.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.view_passenger.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.view_passenger.DisabledState.Parent = this.view_passenger;
+            this.view_passenger.FillColor = System.Drawing.Color.Green;
+            this.view_passenger.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.view_passenger.ForeColor = System.Drawing.Color.White;
+            this.view_passenger.HoverState.Parent = this.view_passenger;
+            this.view_passenger.Location = new System.Drawing.Point(631, 718);
+            this.view_passenger.Name = "view_passenger";
+            this.view_passenger.ShadowDecoration.Parent = this.view_passenger;
+            this.view_passenger.Size = new System.Drawing.Size(114, 45);
+            this.view_passenger.TabIndex = 38;
+            this.view_passenger.Text = "Visualizar Passageiros";
+            this.view_passenger.Click += new System.EventHandler(this.view_passenger_Click);
+            // 
             // AddPassenger
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
             this.ClientSize = new System.Drawing.Size(768, 775);
+            this.Controls.Add(this.view_passenger);
             this.Controls.Add(this.close_add_passanger);
             this.Controls.Add(this.pictureBox1);
-            this.Controls.Add(this.reset_button_new_fly);
+            this.Controls.Add(this.reset_button_addPassenger);
             this.Controls.Add(this.Button_new_passenger);
             this.Controls.Add(this.nmr_client);
             this.Controls.Add(this.label8);
@@ -416,9 +446,10 @@
         private System.Windows.Forms.Label label7;
         private Guna.UI2.WinForms.Guna2TextBox nmr_client;
         private System.Windows.Forms.Label label8;
-        private Guna.UI2.WinForms.Guna2Button reset_button_new_fly;
+        private Guna.UI2.WinForms.Guna2Button reset_button_addPassenger;
         private Guna.UI2.WinForms.Guna2Button Button_new_passenger;
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.Button close_add_passanger;
+        private Guna.UI2.WinForms.Guna2Button view_passenger;
     }
 }

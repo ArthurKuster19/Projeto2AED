@@ -16,7 +16,11 @@ namespace system_airplane
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
+<<<<<<< HEAD
             Application.Run(new Splash());
+=======
+            Application.Run(new ViewPassenger());
+>>>>>>> 1538db826358f02ffff7f24fdf3c76c27cb60b3b
         }
     }
 }
