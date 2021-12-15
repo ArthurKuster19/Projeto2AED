@@ -28,7 +28,7 @@ namespace system_airplane
         private void Button_new_passenger_Click(object sender, EventArgs e)
         {
 
-            if (text_input_login.Text == "" || nameClient.Text == "" || nmr_passaport.Text == "" || end_passport.Text == "" || nmr_client.Text == "" || nat_passenger.Text == ""
+            if (text_input_cpf.Text == "" || nameClient.Text == "" || nmr_passaport.Text == "" || end_passport.Text == "" || nmr_client.Text == "" || nat_passenger.Text == ""
                 || gen_passenger.Text == "")
             {
                 MessageBox.Show("Informações inválidas");
@@ -39,7 +39,7 @@ namespace system_airplane
                 {
                     Con.Open();
 
-                    string query = "insert into PassengerTbl values(" + text_input_login.Text + ",'" + nameClient.Text + "', " + nmr_passaport.Text + ", '" + end_passport.Text + "', '" + nat_passenger.SelectedItem.ToString() + "', '" + gen_passenger.SelectedItem.ToString() + "', " + nmr_client.Text + " )";
+                    string query = "insert into PassengerTbl values('" + text_input_cpf.Text + "','" + nameClient.Text + "', " + nmr_passaport.Text + ", '" + end_passport.Text + "', '" + nat_passenger.SelectedItem.ToString() + "', '" + gen_passenger.SelectedItem.ToString() + "', " + nmr_client.Text + " )";
 
 
                     SqlCommand cmd = new SqlCommand(query, Con);
@@ -69,7 +69,7 @@ namespace system_airplane
 
         private void reset_button_addPassenger_Click(object sender, EventArgs e)
         {
-            text_input_login.Text = "";
+            text_input_cpf.Text = "";
             nameClient.Text = "";
             nmr_passaport.Text = "";
             end_passport.Text = "";

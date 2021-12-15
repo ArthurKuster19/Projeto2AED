@@ -16,9 +16,8 @@ namespace system_airplane
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Splash());
 
-            Application.Run(new ViewPassenger());
+            Application.Run(new Tickets());
 
         }
     }

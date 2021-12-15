@@ -29,7 +29,7 @@
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(AddPassenger));
-            this.text_input_login = new Guna.UI2.WinForms.Guna2TextBox();
+            this.text_input_cpf = new Guna.UI2.WinForms.Guna2TextBox();
             this.label2 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
             this.title = new System.Windows.Forms.Label();
@@ -53,30 +53,30 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
-            // text_input_login
+            // text_input_cpf
             // 
-            this.text_input_login.Cursor = System.Windows.Forms.Cursors.IBeam;
-            this.text_input_login.DefaultText = "";
-            this.text_input_login.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
-            this.text_input_login.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
-            this.text_input_login.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.text_input_login.DisabledState.Parent = this.text_input_login;
-            this.text_input_login.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.text_input_login.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.text_input_login.FocusedState.Parent = this.text_input_login;
-            this.text_input_login.Font = new System.Drawing.Font("Arial", 12F);
-            this.text_input_login.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.text_input_login.HoverState.Parent = this.text_input_login;
-            this.text_input_login.Location = new System.Drawing.Point(312, 185);
-            this.text_input_login.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
-            this.text_input_login.MaxLength = 11;
-            this.text_input_login.Name = "text_input_login";
-            this.text_input_login.PasswordChar = '\0';
-            this.text_input_login.PlaceholderText = "Digite o CPF";
-            this.text_input_login.SelectedText = "";
-            this.text_input_login.ShadowDecoration.Parent = this.text_input_login;
-            this.text_input_login.Size = new System.Drawing.Size(159, 43);
-            this.text_input_login.TabIndex = 21;
+            this.text_input_cpf.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.text_input_cpf.DefaultText = "";
+            this.text_input_cpf.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
+            this.text_input_cpf.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
+            this.text_input_cpf.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.text_input_cpf.DisabledState.Parent = this.text_input_cpf;
+            this.text_input_cpf.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.text_input_cpf.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.text_input_cpf.FocusedState.Parent = this.text_input_cpf;
+            this.text_input_cpf.Font = new System.Drawing.Font("Arial", 12F);
+            this.text_input_cpf.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.text_input_cpf.HoverState.Parent = this.text_input_cpf;
+            this.text_input_cpf.Location = new System.Drawing.Point(312, 185);
+            this.text_input_cpf.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.text_input_cpf.MaxLength = 11;
+            this.text_input_cpf.Name = "text_input_cpf";
+            this.text_input_cpf.PasswordChar = '\0';
+            this.text_input_cpf.PlaceholderText = "Digite o CPF";
+            this.text_input_cpf.SelectedText = "";
+            this.text_input_cpf.ShadowDecoration.Parent = this.text_input_cpf;
+            this.text_input_cpf.Size = new System.Drawing.Size(159, 43);
+            this.text_input_cpf.TabIndex = 21;
             // 
             // label2
             // 
@@ -86,11 +86,7 @@
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(156, 28);
             this.label2.TabIndex = 20;
-
-            this.label2.Text = "CPF Cliente:";
-
             this.label2.Text = "Cliente CPF:";
-
             this.label2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // label1
@@ -415,7 +411,7 @@
             this.Controls.Add(this.label4);
             this.Controls.Add(this.nameClient);
             this.Controls.Add(this.label3);
-            this.Controls.Add(this.text_input_login);
+            this.Controls.Add(this.text_input_cpf);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.title);
@@ -430,7 +426,7 @@
         }
 
         #endregion
-        private Guna.UI2.WinForms.Guna2TextBox text_input_login;
+        private Guna.UI2.WinForms.Guna2TextBox text_input_cpf;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label title;

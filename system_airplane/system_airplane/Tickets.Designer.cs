@@ -28,31 +28,34 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle2 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle3 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle4 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle5 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle6 = new System.Windows.Forms.DataGridViewCellStyle();
             this.close_tickets = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
             this.title = new System.Windows.Forms.Label();
-            this.text_input_login = new Guna.UI2.WinForms.Guna2TextBox();
+            this.Tid = new Guna.UI2.WinForms.Guna2TextBox();
             this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
-            this.comboBox1 = new System.Windows.Forms.ComboBox();
-            this.comboBox2 = new System.Windows.Forms.ComboBox();
+            this.FCode = new System.Windows.Forms.ComboBox();
+            this.PidCb = new System.Windows.Forms.ComboBox();
             this.label4 = new System.Windows.Forms.Label();
-            this.guna2TextBox1 = new Guna.UI2.WinForms.Guna2TextBox();
+            this.PNameTb = new Guna.UI2.WinForms.Guna2TextBox();
             this.label5 = new System.Windows.Forms.Label();
-            this.guna2TextBox2 = new Guna.UI2.WinForms.Guna2TextBox();
+            this.PPassTb = new Guna.UI2.WinForms.Guna2TextBox();
             this.label6 = new System.Windows.Forms.Label();
             this.label7 = new System.Windows.Forms.Label();
-            this.guna2TextBox4 = new Guna.UI2.WinForms.Guna2TextBox();
+            this.PAgeTb = new Guna.UI2.WinForms.Guna2TextBox();
             this.label8 = new System.Windows.Forms.Label();
-            this.guna2TextBox3 = new Guna.UI2.WinForms.Guna2TextBox();
+            this.PNatTb = new Guna.UI2.WinForms.Guna2TextBox();
             this.label9 = new System.Windows.Forms.Label();
-            this.guna2TextBox5 = new Guna.UI2.WinForms.Guna2TextBox();
+            this.PAmtTb = new Guna.UI2.WinForms.Guna2TextBox();
             this.label10 = new System.Windows.Forms.Label();
-            this.guna2DataGridView1 = new Guna.UI2.WinForms.Guna2DataGridView();
-            ((System.ComponentModel.ISupportInitialize)(this.guna2DataGridView1)).BeginInit();
+            this.reset_button_view = new Guna.UI2.WinForms.Guna2Button();
+            this.delete_button_login = new Guna.UI2.WinForms.Guna2Button();
+            this.update_passenger_view = new Guna.UI2.WinForms.Guna2Button();
+            this.passangerDGV = new Guna.UI2.WinForms.Guna2DataGridView();
+            ((System.ComponentModel.ISupportInitialize)(this.passangerDGV)).BeginInit();
             this.SuspendLayout();
             // 
             // close_tickets
@@ -90,30 +93,30 @@
             this.title.Text = "Airplane Voos";
             this.title.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // text_input_login
+            // Tid
             // 
-            this.text_input_login.Cursor = System.Windows.Forms.Cursors.IBeam;
-            this.text_input_login.DefaultText = "";
-            this.text_input_login.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
-            this.text_input_login.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
-            this.text_input_login.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.text_input_login.DisabledState.Parent = this.text_input_login;
-            this.text_input_login.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.text_input_login.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.text_input_login.FocusedState.Parent = this.text_input_login;
-            this.text_input_login.Font = new System.Drawing.Font("Arial", 12F);
-            this.text_input_login.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.text_input_login.HoverState.Parent = this.text_input_login;
-            this.text_input_login.Location = new System.Drawing.Point(202, 153);
-            this.text_input_login.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
-            this.text_input_login.MaxLength = 4;
-            this.text_input_login.Name = "text_input_login";
-            this.text_input_login.PasswordChar = '\0';
-            this.text_input_login.PlaceholderText = "Digite o id";
-            this.text_input_login.SelectedText = "";
-            this.text_input_login.ShadowDecoration.Parent = this.text_input_login;
-            this.text_input_login.Size = new System.Drawing.Size(159, 43);
-            this.text_input_login.TabIndex = 44;
+            this.Tid.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.Tid.DefaultText = "";
+            this.Tid.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
+            this.Tid.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
+            this.Tid.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.Tid.DisabledState.Parent = this.Tid;
+            this.Tid.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.Tid.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.Tid.FocusedState.Parent = this.Tid;
+            this.Tid.Font = new System.Drawing.Font("Arial", 12F);
+            this.Tid.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.Tid.HoverState.Parent = this.Tid;
+            this.Tid.Location = new System.Drawing.Point(202, 153);
+            this.Tid.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Tid.MaxLength = 4;
+            this.Tid.Name = "Tid";
+            this.Tid.PasswordChar = '\0';
+            this.Tid.PlaceholderText = "Digite o id";
+            this.Tid.SelectedText = "";
+            this.Tid.ShadowDecoration.Parent = this.Tid;
+            this.Tid.Size = new System.Drawing.Size(159, 43);
+            this.Tid.TabIndex = 44;
             // 
             // label2
             // 
@@ -137,23 +140,23 @@
             this.label3.Text = "Código do voo:";
             this.label3.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // comboBox1
+            // FCode
             // 
-            this.comboBox1.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.comboBox1.FormattingEnabled = true;
-            this.comboBox1.Location = new System.Drawing.Point(602, 161);
-            this.comboBox1.Name = "comboBox1";
-            this.comboBox1.Size = new System.Drawing.Size(182, 27);
-            this.comboBox1.TabIndex = 46;
+            this.FCode.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.FCode.FormattingEnabled = true;
+            this.FCode.Location = new System.Drawing.Point(602, 161);
+            this.FCode.Name = "FCode";
+            this.FCode.Size = new System.Drawing.Size(182, 27);
+            this.FCode.TabIndex = 46;
             // 
-            // comboBox2
+            // PidCb
             // 
-            this.comboBox2.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.comboBox2.FormattingEnabled = true;
-            this.comboBox2.Location = new System.Drawing.Point(251, 233);
-            this.comboBox2.Name = "comboBox2";
-            this.comboBox2.Size = new System.Drawing.Size(182, 27);
-            this.comboBox2.TabIndex = 48;
+            this.PidCb.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.PidCb.FormattingEnabled = true;
+            this.PidCb.Location = new System.Drawing.Point(251, 233);
+            this.PidCb.Name = "PidCb";
+            this.PidCb.Size = new System.Drawing.Size(182, 27);
+            this.PidCb.TabIndex = 48;
             // 
             // label4
             // 
@@ -166,30 +169,30 @@
             this.label4.Text = "Passageiro id:  ";
             this.label4.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // guna2TextBox1
+            // PNameTb
             // 
-            this.guna2TextBox1.Cursor = System.Windows.Forms.Cursors.IBeam;
-            this.guna2TextBox1.DefaultText = "";
-            this.guna2TextBox1.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
-            this.guna2TextBox1.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
-            this.guna2TextBox1.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.guna2TextBox1.DisabledState.Parent = this.guna2TextBox1;
-            this.guna2TextBox1.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.guna2TextBox1.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.guna2TextBox1.FocusedState.Parent = this.guna2TextBox1;
-            this.guna2TextBox1.Font = new System.Drawing.Font("Arial", 12F);
-            this.guna2TextBox1.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.guna2TextBox1.HoverState.Parent = this.guna2TextBox1;
-            this.guna2TextBox1.Location = new System.Drawing.Point(603, 225);
-            this.guna2TextBox1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
-            this.guna2TextBox1.MaxLength = 4;
-            this.guna2TextBox1.Name = "guna2TextBox1";
-            this.guna2TextBox1.PasswordChar = '\0';
-            this.guna2TextBox1.PlaceholderText = "Digite o nome";
-            this.guna2TextBox1.SelectedText = "";
-            this.guna2TextBox1.ShadowDecoration.Parent = this.guna2TextBox1;
-            this.guna2TextBox1.Size = new System.Drawing.Size(159, 43);
-            this.guna2TextBox1.TabIndex = 50;
+            this.PNameTb.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.PNameTb.DefaultText = "";
+            this.PNameTb.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
+            this.PNameTb.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
+            this.PNameTb.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.PNameTb.DisabledState.Parent = this.PNameTb;
+            this.PNameTb.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.PNameTb.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.PNameTb.FocusedState.Parent = this.PNameTb;
+            this.PNameTb.Font = new System.Drawing.Font("Arial", 12F);
+            this.PNameTb.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.PNameTb.HoverState.Parent = this.PNameTb;
+            this.PNameTb.Location = new System.Drawing.Point(603, 225);
+            this.PNameTb.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.PNameTb.MaxLength = 4;
+            this.PNameTb.Name = "PNameTb";
+            this.PNameTb.PasswordChar = '\0';
+            this.PNameTb.PlaceholderText = "Digite o nome";
+            this.PNameTb.SelectedText = "";
+            this.PNameTb.ShadowDecoration.Parent = this.PNameTb;
+            this.PNameTb.Size = new System.Drawing.Size(159, 43);
+            this.PNameTb.TabIndex = 50;
             // 
             // label5
             // 
@@ -202,30 +205,30 @@
             this.label5.Text = "Nome:";
             this.label5.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // guna2TextBox2
+            // PPassTb
             // 
-            this.guna2TextBox2.Cursor = System.Windows.Forms.Cursors.IBeam;
-            this.guna2TextBox2.DefaultText = "";
-            this.guna2TextBox2.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
-            this.guna2TextBox2.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
-            this.guna2TextBox2.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.guna2TextBox2.DisabledState.Parent = this.guna2TextBox2;
-            this.guna2TextBox2.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.guna2TextBox2.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.guna2TextBox2.FocusedState.Parent = this.guna2TextBox2;
-            this.guna2TextBox2.Font = new System.Drawing.Font("Arial", 12F);
-            this.guna2TextBox2.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.guna2TextBox2.HoverState.Parent = this.guna2TextBox2;
-            this.guna2TextBox2.Location = new System.Drawing.Point(202, 312);
-            this.guna2TextBox2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
-            this.guna2TextBox2.MaxLength = 4;
-            this.guna2TextBox2.Name = "guna2TextBox2";
-            this.guna2TextBox2.PasswordChar = '\0';
-            this.guna2TextBox2.PlaceholderText = "Digite o passaporte";
-            this.guna2TextBox2.SelectedText = "";
-            this.guna2TextBox2.ShadowDecoration.Parent = this.guna2TextBox2;
-            this.guna2TextBox2.Size = new System.Drawing.Size(159, 43);
-            this.guna2TextBox2.TabIndex = 52;
+            this.PPassTb.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.PPassTb.DefaultText = "";
+            this.PPassTb.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
+            this.PPassTb.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
+            this.PPassTb.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.PPassTb.DisabledState.Parent = this.PPassTb;
+            this.PPassTb.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.PPassTb.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.PPassTb.FocusedState.Parent = this.PPassTb;
+            this.PPassTb.Font = new System.Drawing.Font("Arial", 12F);
+            this.PPassTb.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.PPassTb.HoverState.Parent = this.PPassTb;
+            this.PPassTb.Location = new System.Drawing.Point(202, 312);
+            this.PPassTb.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.PPassTb.MaxLength = 4;
+            this.PPassTb.Name = "PPassTb";
+            this.PPassTb.PasswordChar = '\0';
+            this.PPassTb.PlaceholderText = "Digite o passaporte";
+            this.PPassTb.SelectedText = "";
+            this.PPassTb.ShadowDecoration.Parent = this.PPassTb;
+            this.PPassTb.Size = new System.Drawing.Size(159, 43);
+            this.PPassTb.TabIndex = 52;
             // 
             // label6
             // 
@@ -249,66 +252,66 @@
             this.label7.Text = "Nacionalidade:";
             this.label7.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // guna2TextBox4
+            // PAgeTb
             // 
-            this.guna2TextBox4.Cursor = System.Windows.Forms.Cursors.IBeam;
-            this.guna2TextBox4.DefaultText = "";
-            this.guna2TextBox4.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
-            this.guna2TextBox4.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
-            this.guna2TextBox4.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.guna2TextBox4.DisabledState.Parent = this.guna2TextBox4;
-            this.guna2TextBox4.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.guna2TextBox4.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.guna2TextBox4.FocusedState.Parent = this.guna2TextBox4;
-            this.guna2TextBox4.Font = new System.Drawing.Font("Arial", 12F);
-            this.guna2TextBox4.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.guna2TextBox4.HoverState.Parent = this.guna2TextBox4;
-            this.guna2TextBox4.Location = new System.Drawing.Point(202, 397);
-            this.guna2TextBox4.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
-            this.guna2TextBox4.MaxLength = 4;
-            this.guna2TextBox4.Name = "guna2TextBox4";
-            this.guna2TextBox4.PasswordChar = '\0';
-            this.guna2TextBox4.PlaceholderText = "Digite o nome";
-            this.guna2TextBox4.SelectedText = "";
-            this.guna2TextBox4.ShadowDecoration.Parent = this.guna2TextBox4;
-            this.guna2TextBox4.Size = new System.Drawing.Size(159, 43);
-            this.guna2TextBox4.TabIndex = 56;
+            this.PAgeTb.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.PAgeTb.DefaultText = "";
+            this.PAgeTb.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
+            this.PAgeTb.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
+            this.PAgeTb.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.PAgeTb.DisabledState.Parent = this.PAgeTb;
+            this.PAgeTb.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.PAgeTb.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.PAgeTb.FocusedState.Parent = this.PAgeTb;
+            this.PAgeTb.Font = new System.Drawing.Font("Arial", 12F);
+            this.PAgeTb.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.PAgeTb.HoverState.Parent = this.PAgeTb;
+            this.PAgeTb.Location = new System.Drawing.Point(202, 387);
+            this.PAgeTb.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.PAgeTb.MaxLength = 4;
+            this.PAgeTb.Name = "PAgeTb";
+            this.PAgeTb.PasswordChar = '\0';
+            this.PAgeTb.PlaceholderText = "Digite o nome";
+            this.PAgeTb.SelectedText = "";
+            this.PAgeTb.ShadowDecoration.Parent = this.PAgeTb;
+            this.PAgeTb.Size = new System.Drawing.Size(159, 43);
+            this.PAgeTb.TabIndex = 56;
             // 
             // label8
             // 
             this.label8.AutoSize = true;
             this.label8.Font = new System.Drawing.Font("Cascadia Code", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label8.Location = new System.Drawing.Point(63, 402);
+            this.label8.Location = new System.Drawing.Point(63, 392);
             this.label8.Name = "label8";
             this.label8.Size = new System.Drawing.Size(84, 28);
             this.label8.TabIndex = 55;
             this.label8.Text = "Idade:";
             this.label8.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // guna2TextBox3
+            // PNatTb
             // 
-            this.guna2TextBox3.Cursor = System.Windows.Forms.Cursors.IBeam;
-            this.guna2TextBox3.DefaultText = "";
-            this.guna2TextBox3.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
-            this.guna2TextBox3.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
-            this.guna2TextBox3.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.guna2TextBox3.DisabledState.Parent = this.guna2TextBox3;
-            this.guna2TextBox3.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.guna2TextBox3.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.guna2TextBox3.FocusedState.Parent = this.guna2TextBox3;
-            this.guna2TextBox3.Font = new System.Drawing.Font("Arial", 12F);
-            this.guna2TextBox3.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.guna2TextBox3.HoverState.Parent = this.guna2TextBox3;
-            this.guna2TextBox3.Location = new System.Drawing.Point(604, 312);
-            this.guna2TextBox3.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
-            this.guna2TextBox3.MaxLength = 4;
-            this.guna2TextBox3.Name = "guna2TextBox3";
-            this.guna2TextBox3.PasswordChar = '\0';
-            this.guna2TextBox3.PlaceholderText = "Digite a naciona...";
-            this.guna2TextBox3.SelectedText = "";
-            this.guna2TextBox3.ShadowDecoration.Parent = this.guna2TextBox3;
-            this.guna2TextBox3.Size = new System.Drawing.Size(159, 43);
-            this.guna2TextBox3.TabIndex = 54;
+            this.PNatTb.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.PNatTb.DefaultText = "";
+            this.PNatTb.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
+            this.PNatTb.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
+            this.PNatTb.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.PNatTb.DisabledState.Parent = this.PNatTb;
+            this.PNatTb.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.PNatTb.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.PNatTb.FocusedState.Parent = this.PNatTb;
+            this.PNatTb.Font = new System.Drawing.Font("Arial", 12F);
+            this.PNatTb.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.PNatTb.HoverState.Parent = this.PNatTb;
+            this.PNatTb.Location = new System.Drawing.Point(604, 312);
+            this.PNatTb.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.PNatTb.MaxLength = 4;
+            this.PNatTb.Name = "PNatTb";
+            this.PNatTb.PasswordChar = '\0';
+            this.PNatTb.PlaceholderText = "Digite a naciona...";
+            this.PNatTb.SelectedText = "";
+            this.PNatTb.ShadowDecoration.Parent = this.PNatTb;
+            this.PNatTb.Size = new System.Drawing.Size(159, 43);
+            this.PNatTb.TabIndex = 54;
             // 
             // label9
             // 
@@ -321,97 +324,157 @@
             this.label9.Text = "Quantidade:";
             this.label9.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // guna2TextBox5
+            // PAmtTb
             // 
-            this.guna2TextBox5.Cursor = System.Windows.Forms.Cursors.IBeam;
-            this.guna2TextBox5.DefaultText = "";
-            this.guna2TextBox5.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
-            this.guna2TextBox5.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
-            this.guna2TextBox5.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.guna2TextBox5.DisabledState.Parent = this.guna2TextBox5;
-            this.guna2TextBox5.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.guna2TextBox5.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.guna2TextBox5.FocusedState.Parent = this.guna2TextBox5;
-            this.guna2TextBox5.Font = new System.Drawing.Font("Arial", 12F);
-            this.guna2TextBox5.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.guna2TextBox5.HoverState.Parent = this.guna2TextBox5;
-            this.guna2TextBox5.Location = new System.Drawing.Point(602, 397);
-            this.guna2TextBox5.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
-            this.guna2TextBox5.MaxLength = 4;
-            this.guna2TextBox5.Name = "guna2TextBox5";
-            this.guna2TextBox5.PasswordChar = '\0';
-            this.guna2TextBox5.PlaceholderText = "Digite a quantidade";
-            this.guna2TextBox5.SelectedText = "";
-            this.guna2TextBox5.ShadowDecoration.Parent = this.guna2TextBox5;
-            this.guna2TextBox5.Size = new System.Drawing.Size(159, 43);
-            this.guna2TextBox5.TabIndex = 58;
+            this.PAmtTb.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.PAmtTb.DefaultText = "";
+            this.PAmtTb.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
+            this.PAmtTb.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
+            this.PAmtTb.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.PAmtTb.DisabledState.Parent = this.PAmtTb;
+            this.PAmtTb.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.PAmtTb.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.PAmtTb.FocusedState.Parent = this.PAmtTb;
+            this.PAmtTb.Font = new System.Drawing.Font("Arial", 12F);
+            this.PAmtTb.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.PAmtTb.HoverState.Parent = this.PAmtTb;
+            this.PAmtTb.Location = new System.Drawing.Point(602, 397);
+            this.PAmtTb.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.PAmtTb.MaxLength = 4;
+            this.PAmtTb.Name = "PAmtTb";
+            this.PAmtTb.PasswordChar = '\0';
+            this.PAmtTb.PlaceholderText = "Digite a quantidade";
+            this.PAmtTb.SelectedText = "";
+            this.PAmtTb.ShadowDecoration.Parent = this.PAmtTb;
+            this.PAmtTb.Size = new System.Drawing.Size(159, 43);
+            this.PAmtTb.TabIndex = 58;
             // 
             // label10
             // 
             this.label10.AutoSize = true;
             this.label10.Font = new System.Drawing.Font("Cascadia Code", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label10.Location = new System.Drawing.Point(277, 495);
+            this.label10.Location = new System.Drawing.Point(345, 444);
             this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(319, 35);
+            this.label10.Size = new System.Drawing.Size(143, 35);
             this.label10.TabIndex = 59;
-            this.label10.Text = "Reserva de bilhetes";
+            this.label10.Text = "Reservas";
             this.label10.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // guna2DataGridView1
+            // reset_button_view
             // 
-            dataGridViewCellStyle1.BackColor = System.Drawing.Color.White;
-            this.guna2DataGridView1.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle1;
-            this.guna2DataGridView1.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
-            this.guna2DataGridView1.BackgroundColor = System.Drawing.SystemColors.Control;
-            this.guna2DataGridView1.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.guna2DataGridView1.CellBorderStyle = System.Windows.Forms.DataGridViewCellBorderStyle.SingleHorizontal;
-            this.guna2DataGridView1.ColumnHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None;
-            dataGridViewCellStyle2.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(88)))), ((int)(((byte)(255)))));
-            dataGridViewCellStyle2.Font = new System.Drawing.Font("Segoe UI", 10.5F);
-            dataGridViewCellStyle2.ForeColor = System.Drawing.Color.White;
-            dataGridViewCellStyle2.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle2.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle2.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.guna2DataGridView1.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle2;
-            this.guna2DataGridView1.ColumnHeadersHeight = 4;
-            dataGridViewCellStyle3.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle3.BackColor = System.Drawing.Color.White;
-            dataGridViewCellStyle3.Font = new System.Drawing.Font("Segoe UI", 10.5F);
-            dataGridViewCellStyle3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(71)))), ((int)(((byte)(69)))), ((int)(((byte)(94)))));
-            dataGridViewCellStyle3.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(229)))), ((int)(((byte)(255)))));
-            dataGridViewCellStyle3.SelectionForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(71)))), ((int)(((byte)(69)))), ((int)(((byte)(94)))));
-            dataGridViewCellStyle3.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
-            this.guna2DataGridView1.DefaultCellStyle = dataGridViewCellStyle3;
-            this.guna2DataGridView1.EnableHeadersVisualStyles = false;
-            this.guna2DataGridView1.GridColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(229)))), ((int)(((byte)(255)))));
-            this.guna2DataGridView1.Location = new System.Drawing.Point(38, 548);
-            this.guna2DataGridView1.Name = "guna2DataGridView1";
-            this.guna2DataGridView1.RowHeadersVisible = false;
-            this.guna2DataGridView1.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
-            this.guna2DataGridView1.Size = new System.Drawing.Size(746, 253);
-            this.guna2DataGridView1.TabIndex = 60;
-            this.guna2DataGridView1.ThemeStyle.AlternatingRowsStyle.BackColor = System.Drawing.Color.White;
-            this.guna2DataGridView1.ThemeStyle.AlternatingRowsStyle.Font = null;
-            this.guna2DataGridView1.ThemeStyle.AlternatingRowsStyle.ForeColor = System.Drawing.Color.Empty;
-            this.guna2DataGridView1.ThemeStyle.AlternatingRowsStyle.SelectionBackColor = System.Drawing.Color.Empty;
-            this.guna2DataGridView1.ThemeStyle.AlternatingRowsStyle.SelectionForeColor = System.Drawing.Color.Empty;
-            this.guna2DataGridView1.ThemeStyle.BackColor = System.Drawing.SystemColors.Control;
-            this.guna2DataGridView1.ThemeStyle.GridColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(229)))), ((int)(((byte)(255)))));
-            this.guna2DataGridView1.ThemeStyle.HeaderStyle.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(88)))), ((int)(((byte)(255)))));
-            this.guna2DataGridView1.ThemeStyle.HeaderStyle.BorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None;
-            this.guna2DataGridView1.ThemeStyle.HeaderStyle.Font = new System.Drawing.Font("Segoe UI", 10.5F);
-            this.guna2DataGridView1.ThemeStyle.HeaderStyle.ForeColor = System.Drawing.Color.White;
-            this.guna2DataGridView1.ThemeStyle.HeaderStyle.HeaightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.EnableResizing;
-            this.guna2DataGridView1.ThemeStyle.HeaderStyle.Height = 4;
-            this.guna2DataGridView1.ThemeStyle.ReadOnly = false;
-            this.guna2DataGridView1.ThemeStyle.RowsStyle.BackColor = System.Drawing.Color.White;
-            this.guna2DataGridView1.ThemeStyle.RowsStyle.BorderStyle = System.Windows.Forms.DataGridViewCellBorderStyle.SingleHorizontal;
-            this.guna2DataGridView1.ThemeStyle.RowsStyle.Font = new System.Drawing.Font("Segoe UI", 10.5F);
-            this.guna2DataGridView1.ThemeStyle.RowsStyle.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(71)))), ((int)(((byte)(69)))), ((int)(((byte)(94)))));
-            this.guna2DataGridView1.ThemeStyle.RowsStyle.Height = 22;
-            this.guna2DataGridView1.ThemeStyle.RowsStyle.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(229)))), ((int)(((byte)(255)))));
-            this.guna2DataGridView1.ThemeStyle.RowsStyle.SelectionForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(71)))), ((int)(((byte)(69)))), ((int)(((byte)(94)))));
+            this.reset_button_view.CheckedState.Parent = this.reset_button_view;
+            this.reset_button_view.CustomImages.Parent = this.reset_button_view;
+            this.reset_button_view.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.reset_button_view.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.reset_button_view.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.reset_button_view.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.reset_button_view.DisabledState.Parent = this.reset_button_view;
+            this.reset_button_view.FillColor = System.Drawing.Color.Teal;
+            this.reset_button_view.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.reset_button_view.ForeColor = System.Drawing.Color.White;
+            this.reset_button_view.HoverState.Parent = this.reset_button_view;
+            this.reset_button_view.Location = new System.Drawing.Point(495, 497);
+            this.reset_button_view.Name = "reset_button_view";
+            this.reset_button_view.ShadowDecoration.Parent = this.reset_button_view;
+            this.reset_button_view.Size = new System.Drawing.Size(114, 45);
+            this.reset_button_view.TabIndex = 63;
+            this.reset_button_view.Text = "Resetar";
+            // 
+            // delete_button_login
+            // 
+            this.delete_button_login.CheckedState.Parent = this.delete_button_login;
+            this.delete_button_login.CustomImages.Parent = this.delete_button_login;
+            this.delete_button_login.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.delete_button_login.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.delete_button_login.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.delete_button_login.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.delete_button_login.DisabledState.Parent = this.delete_button_login;
+            this.delete_button_login.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+            this.delete_button_login.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.delete_button_login.ForeColor = System.Drawing.Color.White;
+            this.delete_button_login.HoverState.Parent = this.delete_button_login;
+            this.delete_button_login.Location = new System.Drawing.Point(342, 497);
+            this.delete_button_login.Name = "delete_button_login";
+            this.delete_button_login.ShadowDecoration.Parent = this.delete_button_login;
+            this.delete_button_login.Size = new System.Drawing.Size(114, 45);
+            this.delete_button_login.TabIndex = 62;
+            this.delete_button_login.Text = "Apagar";
+            // 
+            // update_passenger_view
+            // 
+            this.update_passenger_view.CheckedState.Parent = this.update_passenger_view;
+            this.update_passenger_view.CustomImages.Parent = this.update_passenger_view;
+            this.update_passenger_view.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.update_passenger_view.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.update_passenger_view.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.update_passenger_view.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.update_passenger_view.DisabledState.Parent = this.update_passenger_view;
+            this.update_passenger_view.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(128)))), ((int)(((byte)(255)))));
+            this.update_passenger_view.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.update_passenger_view.ForeColor = System.Drawing.Color.White;
+            this.update_passenger_view.HoverState.Parent = this.update_passenger_view;
+            this.update_passenger_view.Location = new System.Drawing.Point(196, 497);
+            this.update_passenger_view.Name = "update_passenger_view";
+            this.update_passenger_view.ShadowDecoration.Parent = this.update_passenger_view;
+            this.update_passenger_view.Size = new System.Drawing.Size(114, 45);
+            this.update_passenger_view.TabIndex = 61;
+            this.update_passenger_view.Text = "Reserva";
+            // 
+            // passangerDGV
+            // 
+            dataGridViewCellStyle4.BackColor = System.Drawing.Color.White;
+            this.passangerDGV.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle4;
+            this.passangerDGV.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
+            this.passangerDGV.BackgroundColor = System.Drawing.SystemColors.Control;
+            this.passangerDGV.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.passangerDGV.CellBorderStyle = System.Windows.Forms.DataGridViewCellBorderStyle.SingleHorizontal;
+            this.passangerDGV.ColumnHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None;
+            dataGridViewCellStyle5.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(88)))), ((int)(((byte)(255)))));
+            dataGridViewCellStyle5.Font = new System.Drawing.Font("Segoe UI", 10.5F);
+            dataGridViewCellStyle5.ForeColor = System.Drawing.Color.White;
+            dataGridViewCellStyle5.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle5.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle5.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.passangerDGV.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle5;
+            this.passangerDGV.ColumnHeadersHeight = 30;
+            dataGridViewCellStyle6.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle6.BackColor = System.Drawing.Color.White;
+            dataGridViewCellStyle6.Font = new System.Drawing.Font("Segoe UI", 10.5F);
+            dataGridViewCellStyle6.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(71)))), ((int)(((byte)(69)))), ((int)(((byte)(94)))));
+            dataGridViewCellStyle6.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(229)))), ((int)(((byte)(255)))));
+            dataGridViewCellStyle6.SelectionForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(71)))), ((int)(((byte)(69)))), ((int)(((byte)(94)))));
+            dataGridViewCellStyle6.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
+            this.passangerDGV.DefaultCellStyle = dataGridViewCellStyle6;
+            this.passangerDGV.EnableHeadersVisualStyles = false;
+            this.passangerDGV.GridColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(229)))), ((int)(((byte)(255)))));
+            this.passangerDGV.Location = new System.Drawing.Point(21, 559);
+            this.passangerDGV.Name = "passangerDGV";
+            this.passangerDGV.RowHeadersVisible = false;
+            this.passangerDGV.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
+            this.passangerDGV.Size = new System.Drawing.Size(799, 242);
+            this.passangerDGV.TabIndex = 64;
+            this.passangerDGV.ThemeStyle.AlternatingRowsStyle.BackColor = System.Drawing.Color.White;
+            this.passangerDGV.ThemeStyle.AlternatingRowsStyle.Font = null;
+            this.passangerDGV.ThemeStyle.AlternatingRowsStyle.ForeColor = System.Drawing.Color.Empty;
+            this.passangerDGV.ThemeStyle.AlternatingRowsStyle.SelectionBackColor = System.Drawing.Color.Empty;
+            this.passangerDGV.ThemeStyle.AlternatingRowsStyle.SelectionForeColor = System.Drawing.Color.Empty;
+            this.passangerDGV.ThemeStyle.BackColor = System.Drawing.SystemColors.Control;
+            this.passangerDGV.ThemeStyle.GridColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(229)))), ((int)(((byte)(255)))));
+            this.passangerDGV.ThemeStyle.HeaderStyle.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
+            this.passangerDGV.ThemeStyle.HeaderStyle.BorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None;
+            this.passangerDGV.ThemeStyle.HeaderStyle.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.passangerDGV.ThemeStyle.HeaderStyle.ForeColor = System.Drawing.Color.White;
+            this.passangerDGV.ThemeStyle.HeaderStyle.HeaightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.EnableResizing;
+            this.passangerDGV.ThemeStyle.HeaderStyle.Height = 30;
+            this.passangerDGV.ThemeStyle.ReadOnly = false;
+            this.passangerDGV.ThemeStyle.RowsStyle.BackColor = System.Drawing.Color.White;
+            this.passangerDGV.ThemeStyle.RowsStyle.BorderStyle = System.Windows.Forms.DataGridViewCellBorderStyle.SingleHorizontal;
+            this.passangerDGV.ThemeStyle.RowsStyle.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.passangerDGV.ThemeStyle.RowsStyle.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(71)))), ((int)(((byte)(69)))), ((int)(((byte)(94)))));
+            this.passangerDGV.ThemeStyle.RowsStyle.Height = 22;
+            this.passangerDGV.ThemeStyle.RowsStyle.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(229)))), ((int)(((byte)(255)))));
+            this.passangerDGV.ThemeStyle.RowsStyle.SelectionForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(71)))), ((int)(((byte)(69)))), ((int)(((byte)(94)))));
             // 
             // Tickets
             // 
@@ -419,23 +482,26 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
             this.ClientSize = new System.Drawing.Size(832, 813);
-            this.Controls.Add(this.guna2DataGridView1);
+            this.Controls.Add(this.passangerDGV);
+            this.Controls.Add(this.reset_button_view);
+            this.Controls.Add(this.delete_button_login);
+            this.Controls.Add(this.update_passenger_view);
             this.Controls.Add(this.label10);
-            this.Controls.Add(this.guna2TextBox5);
+            this.Controls.Add(this.PAmtTb);
             this.Controls.Add(this.label9);
-            this.Controls.Add(this.guna2TextBox4);
+            this.Controls.Add(this.PAgeTb);
             this.Controls.Add(this.label8);
-            this.Controls.Add(this.guna2TextBox3);
+            this.Controls.Add(this.PNatTb);
             this.Controls.Add(this.label7);
-            this.Controls.Add(this.guna2TextBox2);
+            this.Controls.Add(this.PPassTb);
             this.Controls.Add(this.label6);
-            this.Controls.Add(this.guna2TextBox1);
+            this.Controls.Add(this.PNameTb);
             this.Controls.Add(this.label5);
-            this.Controls.Add(this.comboBox2);
+            this.Controls.Add(this.PidCb);
             this.Controls.Add(this.label4);
-            this.Controls.Add(this.comboBox1);
+            this.Controls.Add(this.FCode);
             this.Controls.Add(this.label3);
-            this.Controls.Add(this.text_input_login);
+            this.Controls.Add(this.Tid);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.close_tickets);
             this.Controls.Add(this.label1);
@@ -444,7 +510,8 @@
             this.Name = "Tickets";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Ticket";
-            ((System.ComponentModel.ISupportInitialize)(this.guna2DataGridView1)).EndInit();
+            this.Load += new System.EventHandler(this.Tickets_Load);
+            ((System.ComponentModel.ISupportInitialize)(this.passangerDGV)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -455,23 +522,26 @@
         private System.Windows.Forms.Button close_tickets;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label title;
-        private Guna.UI2.WinForms.Guna2TextBox text_input_login;
+        private Guna.UI2.WinForms.Guna2TextBox Tid;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.ComboBox comboBox1;
-        private System.Windows.Forms.ComboBox comboBox2;
+        private System.Windows.Forms.ComboBox FCode;
+        private System.Windows.Forms.ComboBox PidCb;
         private System.Windows.Forms.Label label4;
-        private Guna.UI2.WinForms.Guna2TextBox guna2TextBox1;
+        private Guna.UI2.WinForms.Guna2TextBox PNameTb;
         private System.Windows.Forms.Label label5;
-        private Guna.UI2.WinForms.Guna2TextBox guna2TextBox2;
+        private Guna.UI2.WinForms.Guna2TextBox PPassTb;
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.Label label7;
-        private Guna.UI2.WinForms.Guna2TextBox guna2TextBox4;
+        private Guna.UI2.WinForms.Guna2TextBox PAgeTb;
         private System.Windows.Forms.Label label8;
-        private Guna.UI2.WinForms.Guna2TextBox guna2TextBox3;
+        private Guna.UI2.WinForms.Guna2TextBox PNatTb;
         private System.Windows.Forms.Label label9;
-        private Guna.UI2.WinForms.Guna2TextBox guna2TextBox5;
+        private Guna.UI2.WinForms.Guna2TextBox PAmtTb;
         private System.Windows.Forms.Label label10;
-        private Guna.UI2.WinForms.Guna2DataGridView guna2DataGridView1;
+        private Guna.UI2.WinForms.Guna2Button reset_button_view;
+        private Guna.UI2.WinForms.Guna2Button delete_button_login;
+        private Guna.UI2.WinForms.Guna2Button update_passenger_view;
+        private Guna.UI2.WinForms.Guna2DataGridView passangerDGV;
     }
 }

@@ -28,28 +28,28 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle2 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle3 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle4 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle5 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle6 = new System.Windows.Forms.DataGridViewCellStyle();
             this.label1 = new System.Windows.Forms.Label();
             this.title = new System.Windows.Forms.Label();
-            this.guna2DateTimePicker1 = new Guna.UI2.WinForms.Guna2DateTimePicker();
+            this.Fdate = new Guna.UI2.WinForms.Guna2DateTimePicker();
             this.label6 = new System.Windows.Forms.Label();
-            this.comboBox2 = new System.Windows.Forms.ComboBox();
-            this.comboBox1 = new System.Windows.Forms.ComboBox();
+            this.DstCb = new System.Windows.Forms.ComboBox();
+            this.SrcCb = new System.Windows.Forms.ComboBox();
             this.label5 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
-            this.text_input_login = new Guna.UI2.WinForms.Guna2TextBox();
+            this.Fcode = new Guna.UI2.WinForms.Guna2TextBox();
             this.label2 = new System.Windows.Forms.Label();
-            this.guna2TextBox1 = new Guna.UI2.WinForms.Guna2TextBox();
+            this.Seatnum = new Guna.UI2.WinForms.Guna2TextBox();
             this.label3 = new System.Windows.Forms.Label();
-            this.guna2DataGridView1 = new Guna.UI2.WinForms.Guna2DataGridView();
-            this.reset_button_login = new Guna.UI2.WinForms.Guna2Button();
-            this.Button_login = new Guna.UI2.WinForms.Guna2Button();
-            this.guna2Button1 = new Guna.UI2.WinForms.Guna2Button();
-            this.guna2Button2 = new Guna.UI2.WinForms.Guna2Button();
+            this.delete_button_list_fly = new Guna.UI2.WinForms.Guna2Button();
+            this.att_view_fly = new Guna.UI2.WinForms.Guna2Button();
+            this.back_to_save_fly = new Guna.UI2.WinForms.Guna2Button();
+            this.reset_inputs = new Guna.UI2.WinForms.Guna2Button();
             this.close_view_fly = new System.Windows.Forms.Button();
-            ((System.ComponentModel.ISupportInitialize)(this.guna2DataGridView1)).BeginInit();
+            this.FlightDGV = new Guna.UI2.WinForms.Guna2DataGridView();
+            ((System.ComponentModel.ISupportInitialize)(this.FlightDGV)).BeginInit();
             this.SuspendLayout();
             // 
             // label1
@@ -74,25 +74,25 @@
             this.title.Text = "Airplane Voos";
             this.title.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // guna2DateTimePicker1
+            // Fdate
             // 
-            this.guna2DateTimePicker1.Animated = true;
-            this.guna2DateTimePicker1.BackColor = System.Drawing.Color.Transparent;
-            this.guna2DateTimePicker1.Checked = true;
-            this.guna2DateTimePicker1.CheckedState.Parent = this.guna2DateTimePicker1;
-            this.guna2DateTimePicker1.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(128)))), ((int)(((byte)(255)))));
-            this.guna2DateTimePicker1.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.guna2DateTimePicker1.Format = System.Windows.Forms.DateTimePickerFormat.Long;
-            this.guna2DateTimePicker1.HoverState.Parent = this.guna2DateTimePicker1;
-            this.guna2DateTimePicker1.IndicateFocus = true;
-            this.guna2DateTimePicker1.Location = new System.Drawing.Point(116, 320);
-            this.guna2DateTimePicker1.MaxDate = new System.DateTime(9998, 12, 31, 0, 0, 0, 0);
-            this.guna2DateTimePicker1.MinDate = new System.DateTime(1753, 1, 1, 0, 0, 0, 0);
-            this.guna2DateTimePicker1.Name = "guna2DateTimePicker1";
-            this.guna2DateTimePicker1.ShadowDecoration.Parent = this.guna2DateTimePicker1;
-            this.guna2DateTimePicker1.Size = new System.Drawing.Size(248, 36);
-            this.guna2DateTimePicker1.TabIndex = 31;
-            this.guna2DateTimePicker1.Value = new System.DateTime(2021, 12, 5, 15, 32, 40, 669);
+            this.Fdate.Animated = true;
+            this.Fdate.BackColor = System.Drawing.Color.Transparent;
+            this.Fdate.Checked = true;
+            this.Fdate.CheckedState.Parent = this.Fdate;
+            this.Fdate.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(128)))), ((int)(((byte)(255)))));
+            this.Fdate.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.Fdate.Format = System.Windows.Forms.DateTimePickerFormat.Long;
+            this.Fdate.HoverState.Parent = this.Fdate;
+            this.Fdate.IndicateFocus = true;
+            this.Fdate.Location = new System.Drawing.Point(116, 320);
+            this.Fdate.MaxDate = new System.DateTime(9998, 12, 31, 0, 0, 0, 0);
+            this.Fdate.MinDate = new System.DateTime(1753, 1, 1, 0, 0, 0, 0);
+            this.Fdate.Name = "Fdate";
+            this.Fdate.ShadowDecoration.Parent = this.Fdate;
+            this.Fdate.Size = new System.Drawing.Size(248, 36);
+            this.Fdate.TabIndex = 31;
+            this.Fdate.Value = new System.DateTime(2021, 12, 5, 15, 32, 40, 669);
             // 
             // label6
             // 
@@ -105,23 +105,43 @@
             this.label6.Text = "Data:";
             this.label6.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // comboBox2
+            // DstCb
             // 
-            this.comboBox2.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.comboBox2.FormattingEnabled = true;
-            this.comboBox2.Location = new System.Drawing.Point(572, 325);
-            this.comboBox2.Name = "comboBox2";
-            this.comboBox2.Size = new System.Drawing.Size(182, 27);
-            this.comboBox2.TabIndex = 29;
+            this.DstCb.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.DstCb.FormattingEnabled = true;
+            this.DstCb.Items.AddRange(new object[] {
+            "ES",
+            "SP",
+            "AP",
+            "AM",
+            "CE",
+            "RJ",
+            "TC",
+            "PA",
+            "PR"});
+            this.DstCb.Location = new System.Drawing.Point(572, 325);
+            this.DstCb.Name = "DstCb";
+            this.DstCb.Size = new System.Drawing.Size(182, 27);
+            this.DstCb.TabIndex = 29;
             // 
-            // comboBox1
+            // SrcCb
             // 
-            this.comboBox1.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.comboBox1.FormattingEnabled = true;
-            this.comboBox1.Location = new System.Drawing.Point(572, 219);
-            this.comboBox1.Name = "comboBox1";
-            this.comboBox1.Size = new System.Drawing.Size(182, 27);
-            this.comboBox1.TabIndex = 28;
+            this.SrcCb.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.SrcCb.FormattingEnabled = true;
+            this.SrcCb.Items.AddRange(new object[] {
+            "ES",
+            "SP",
+            "AP",
+            "AM",
+            "CE",
+            "RJ",
+            "TC",
+            "PA",
+            "PR"});
+            this.SrcCb.Location = new System.Drawing.Point(572, 219);
+            this.SrcCb.Name = "SrcCb";
+            this.SrcCb.Size = new System.Drawing.Size(182, 27);
+            this.SrcCb.TabIndex = 28;
             // 
             // label5
             // 
@@ -145,30 +165,30 @@
             this.label4.Text = "Procurar";
             this.label4.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // text_input_login
+            // Fcode
             // 
-            this.text_input_login.Cursor = System.Windows.Forms.Cursors.IBeam;
-            this.text_input_login.DefaultText = "";
-            this.text_input_login.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
-            this.text_input_login.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
-            this.text_input_login.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.text_input_login.DisabledState.Parent = this.text_input_login;
-            this.text_input_login.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.text_input_login.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.text_input_login.FocusedState.Parent = this.text_input_login;
-            this.text_input_login.Font = new System.Drawing.Font("Arial", 12F);
-            this.text_input_login.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.text_input_login.HoverState.Parent = this.text_input_login;
-            this.text_input_login.Location = new System.Drawing.Point(205, 213);
-            this.text_input_login.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
-            this.text_input_login.MaxLength = 4;
-            this.text_input_login.Name = "text_input_login";
-            this.text_input_login.PasswordChar = '\0';
-            this.text_input_login.PlaceholderText = "Digite o código";
-            this.text_input_login.SelectedText = "";
-            this.text_input_login.ShadowDecoration.Parent = this.text_input_login;
-            this.text_input_login.Size = new System.Drawing.Size(159, 43);
-            this.text_input_login.TabIndex = 25;
+            this.Fcode.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.Fcode.DefaultText = "";
+            this.Fcode.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
+            this.Fcode.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
+            this.Fcode.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.Fcode.DisabledState.Parent = this.Fcode;
+            this.Fcode.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.Fcode.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.Fcode.FocusedState.Parent = this.Fcode;
+            this.Fcode.Font = new System.Drawing.Font("Arial", 12F);
+            this.Fcode.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.Fcode.HoverState.Parent = this.Fcode;
+            this.Fcode.Location = new System.Drawing.Point(205, 213);
+            this.Fcode.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Fcode.MaxLength = 4;
+            this.Fcode.Name = "Fcode";
+            this.Fcode.PasswordChar = '\0';
+            this.Fcode.PlaceholderText = "Digite o código";
+            this.Fcode.SelectedText = "";
+            this.Fcode.ShadowDecoration.Parent = this.Fcode;
+            this.Fcode.Size = new System.Drawing.Size(159, 43);
+            this.Fcode.TabIndex = 25;
             // 
             // label2
             // 
@@ -181,30 +201,30 @@
             this.label2.Text = "Código do voo:\r\n";
             this.label2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // guna2TextBox1
+            // Seatnum
             // 
-            this.guna2TextBox1.Cursor = System.Windows.Forms.Cursors.IBeam;
-            this.guna2TextBox1.DefaultText = "";
-            this.guna2TextBox1.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
-            this.guna2TextBox1.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
-            this.guna2TextBox1.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.guna2TextBox1.DisabledState.Parent = this.guna2TextBox1;
-            this.guna2TextBox1.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.guna2TextBox1.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.guna2TextBox1.FocusedState.Parent = this.guna2TextBox1;
-            this.guna2TextBox1.Font = new System.Drawing.Font("Arial", 12F);
-            this.guna2TextBox1.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.guna2TextBox1.HoverState.Parent = this.guna2TextBox1;
-            this.guna2TextBox1.Location = new System.Drawing.Point(264, 402);
-            this.guna2TextBox1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
-            this.guna2TextBox1.MaxLength = 4;
-            this.guna2TextBox1.Name = "guna2TextBox1";
-            this.guna2TextBox1.PasswordChar = '\0';
-            this.guna2TextBox1.PlaceholderText = "quantidade de assentos";
-            this.guna2TextBox1.SelectedText = "";
-            this.guna2TextBox1.ShadowDecoration.Parent = this.guna2TextBox1;
-            this.guna2TextBox1.Size = new System.Drawing.Size(189, 43);
-            this.guna2TextBox1.TabIndex = 33;
+            this.Seatnum.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.Seatnum.DefaultText = "";
+            this.Seatnum.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
+            this.Seatnum.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
+            this.Seatnum.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.Seatnum.DisabledState.Parent = this.Seatnum;
+            this.Seatnum.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.Seatnum.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.Seatnum.FocusedState.Parent = this.Seatnum;
+            this.Seatnum.Font = new System.Drawing.Font("Arial", 12F);
+            this.Seatnum.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.Seatnum.HoverState.Parent = this.Seatnum;
+            this.Seatnum.Location = new System.Drawing.Point(264, 402);
+            this.Seatnum.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Seatnum.MaxLength = 4;
+            this.Seatnum.Name = "Seatnum";
+            this.Seatnum.PasswordChar = '\0';
+            this.Seatnum.PlaceholderText = "quantidade de assentos";
+            this.Seatnum.SelectedText = "";
+            this.Seatnum.ShadowDecoration.Parent = this.Seatnum;
+            this.Seatnum.Size = new System.Drawing.Size(189, 43);
+            this.Seatnum.TabIndex = 33;
             // 
             // label3
             // 
@@ -217,141 +237,89 @@
             this.label3.Text = "Números de assentos:";
             this.label3.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // guna2DataGridView1
+            // delete_button_list_fly
             // 
-            dataGridViewCellStyle1.BackColor = System.Drawing.Color.White;
-            this.guna2DataGridView1.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle1;
-            this.guna2DataGridView1.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
-            this.guna2DataGridView1.BackgroundColor = System.Drawing.SystemColors.Control;
-            this.guna2DataGridView1.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.guna2DataGridView1.CellBorderStyle = System.Windows.Forms.DataGridViewCellBorderStyle.SingleHorizontal;
-            this.guna2DataGridView1.ColumnHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None;
-            dataGridViewCellStyle2.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(88)))), ((int)(((byte)(255)))));
-            dataGridViewCellStyle2.Font = new System.Drawing.Font("Segoe UI", 10.5F);
-            dataGridViewCellStyle2.ForeColor = System.Drawing.Color.White;
-            dataGridViewCellStyle2.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle2.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle2.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.guna2DataGridView1.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle2;
-            this.guna2DataGridView1.ColumnHeadersHeight = 4;
-            dataGridViewCellStyle3.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle3.BackColor = System.Drawing.Color.White;
-            dataGridViewCellStyle3.Font = new System.Drawing.Font("Segoe UI", 10.5F);
-            dataGridViewCellStyle3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(71)))), ((int)(((byte)(69)))), ((int)(((byte)(94)))));
-            dataGridViewCellStyle3.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(229)))), ((int)(((byte)(255)))));
-            dataGridViewCellStyle3.SelectionForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(71)))), ((int)(((byte)(69)))), ((int)(((byte)(94)))));
-            dataGridViewCellStyle3.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
-            this.guna2DataGridView1.DefaultCellStyle = dataGridViewCellStyle3;
-            this.guna2DataGridView1.EnableHeadersVisualStyles = false;
-            this.guna2DataGridView1.GridColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(229)))), ((int)(((byte)(255)))));
-            this.guna2DataGridView1.Location = new System.Drawing.Point(22, 559);
-            this.guna2DataGridView1.Name = "guna2DataGridView1";
-            this.guna2DataGridView1.RowHeadersVisible = false;
-            this.guna2DataGridView1.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
-            this.guna2DataGridView1.Size = new System.Drawing.Size(732, 185);
-            this.guna2DataGridView1.TabIndex = 34;
-            this.guna2DataGridView1.ThemeStyle.AlternatingRowsStyle.BackColor = System.Drawing.Color.White;
-            this.guna2DataGridView1.ThemeStyle.AlternatingRowsStyle.Font = null;
-            this.guna2DataGridView1.ThemeStyle.AlternatingRowsStyle.ForeColor = System.Drawing.Color.Empty;
-            this.guna2DataGridView1.ThemeStyle.AlternatingRowsStyle.SelectionBackColor = System.Drawing.Color.Empty;
-            this.guna2DataGridView1.ThemeStyle.AlternatingRowsStyle.SelectionForeColor = System.Drawing.Color.Empty;
-            this.guna2DataGridView1.ThemeStyle.BackColor = System.Drawing.SystemColors.Control;
-            this.guna2DataGridView1.ThemeStyle.GridColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(229)))), ((int)(((byte)(255)))));
-            this.guna2DataGridView1.ThemeStyle.HeaderStyle.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(88)))), ((int)(((byte)(255)))));
-            this.guna2DataGridView1.ThemeStyle.HeaderStyle.BorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None;
-            this.guna2DataGridView1.ThemeStyle.HeaderStyle.Font = new System.Drawing.Font("Segoe UI", 10.5F);
-            this.guna2DataGridView1.ThemeStyle.HeaderStyle.ForeColor = System.Drawing.Color.White;
-            this.guna2DataGridView1.ThemeStyle.HeaderStyle.HeaightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.EnableResizing;
-            this.guna2DataGridView1.ThemeStyle.HeaderStyle.Height = 4;
-            this.guna2DataGridView1.ThemeStyle.ReadOnly = false;
-            this.guna2DataGridView1.ThemeStyle.RowsStyle.BackColor = System.Drawing.Color.White;
-            this.guna2DataGridView1.ThemeStyle.RowsStyle.BorderStyle = System.Windows.Forms.DataGridViewCellBorderStyle.SingleHorizontal;
-            this.guna2DataGridView1.ThemeStyle.RowsStyle.Font = new System.Drawing.Font("Segoe UI", 10.5F);
-            this.guna2DataGridView1.ThemeStyle.RowsStyle.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(71)))), ((int)(((byte)(69)))), ((int)(((byte)(94)))));
-            this.guna2DataGridView1.ThemeStyle.RowsStyle.Height = 22;
-            this.guna2DataGridView1.ThemeStyle.RowsStyle.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(229)))), ((int)(((byte)(255)))));
-            this.guna2DataGridView1.ThemeStyle.RowsStyle.SelectionForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(71)))), ((int)(((byte)(69)))), ((int)(((byte)(94)))));
+            this.delete_button_list_fly.CheckedState.Parent = this.delete_button_list_fly;
+            this.delete_button_list_fly.CustomImages.Parent = this.delete_button_list_fly;
+            this.delete_button_list_fly.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.delete_button_list_fly.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.delete_button_list_fly.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.delete_button_list_fly.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.delete_button_list_fly.DisabledState.Parent = this.delete_button_list_fly;
+            this.delete_button_list_fly.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(128)))), ((int)(((byte)(255)))));
+            this.delete_button_list_fly.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.delete_button_list_fly.ForeColor = System.Drawing.Color.White;
+            this.delete_button_list_fly.HoverState.Parent = this.delete_button_list_fly;
+            this.delete_button_list_fly.Location = new System.Drawing.Point(231, 483);
+            this.delete_button_list_fly.Name = "delete_button_list_fly";
+            this.delete_button_list_fly.ShadowDecoration.Parent = this.delete_button_list_fly;
+            this.delete_button_list_fly.Size = new System.Drawing.Size(114, 45);
+            this.delete_button_list_fly.TabIndex = 36;
+            this.delete_button_list_fly.Text = "Apagar";
+            this.delete_button_list_fly.Click += new System.EventHandler(this.delete_button_list_fly_Click);
             // 
-            // reset_button_login
+            // att_view_fly
             // 
-            this.reset_button_login.CheckedState.Parent = this.reset_button_login;
-            this.reset_button_login.CustomImages.Parent = this.reset_button_login;
-            this.reset_button_login.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
-            this.reset_button_login.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
-            this.reset_button_login.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
-            this.reset_button_login.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
-            this.reset_button_login.DisabledState.Parent = this.reset_button_login;
-            this.reset_button_login.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(128)))), ((int)(((byte)(255)))));
-            this.reset_button_login.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.reset_button_login.ForeColor = System.Drawing.Color.White;
-            this.reset_button_login.HoverState.Parent = this.reset_button_login;
-            this.reset_button_login.Location = new System.Drawing.Point(231, 483);
-            this.reset_button_login.Name = "reset_button_login";
-            this.reset_button_login.ShadowDecoration.Parent = this.reset_button_login;
-            this.reset_button_login.Size = new System.Drawing.Size(114, 45);
-            this.reset_button_login.TabIndex = 36;
-            this.reset_button_login.Text = "Apagar";
+            this.att_view_fly.CheckedState.Parent = this.att_view_fly;
+            this.att_view_fly.CustomImages.Parent = this.att_view_fly;
+            this.att_view_fly.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.att_view_fly.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.att_view_fly.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.att_view_fly.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.att_view_fly.DisabledState.Parent = this.att_view_fly;
+            this.att_view_fly.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(128)))), ((int)(((byte)(255)))));
+            this.att_view_fly.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.att_view_fly.ForeColor = System.Drawing.Color.White;
+            this.att_view_fly.HoverState.Parent = this.att_view_fly;
+            this.att_view_fly.Location = new System.Drawing.Point(85, 483);
+            this.att_view_fly.Name = "att_view_fly";
+            this.att_view_fly.ShadowDecoration.Parent = this.att_view_fly;
+            this.att_view_fly.Size = new System.Drawing.Size(114, 45);
+            this.att_view_fly.TabIndex = 35;
+            this.att_view_fly.Text = "Atualizar";
+            this.att_view_fly.Click += new System.EventHandler(this.att_view_fly_Click);
             // 
-            // Button_login
+            // back_to_save_fly
             // 
-            this.Button_login.CheckedState.Parent = this.Button_login;
-            this.Button_login.CustomImages.Parent = this.Button_login;
-            this.Button_login.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
-            this.Button_login.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
-            this.Button_login.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
-            this.Button_login.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
-            this.Button_login.DisabledState.Parent = this.Button_login;
-            this.Button_login.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(128)))), ((int)(((byte)(255)))));
-            this.Button_login.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.Button_login.ForeColor = System.Drawing.Color.White;
-            this.Button_login.HoverState.Parent = this.Button_login;
-            this.Button_login.Location = new System.Drawing.Point(85, 483);
-            this.Button_login.Name = "Button_login";
-            this.Button_login.ShadowDecoration.Parent = this.Button_login;
-            this.Button_login.Size = new System.Drawing.Size(114, 45);
-            this.Button_login.TabIndex = 35;
-            this.Button_login.Text = "Atualizar";
+            this.back_to_save_fly.CheckedState.Parent = this.back_to_save_fly;
+            this.back_to_save_fly.CustomImages.Parent = this.back_to_save_fly;
+            this.back_to_save_fly.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.back_to_save_fly.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.back_to_save_fly.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.back_to_save_fly.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.back_to_save_fly.DisabledState.Parent = this.back_to_save_fly;
+            this.back_to_save_fly.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(128)))), ((int)(((byte)(255)))));
+            this.back_to_save_fly.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.back_to_save_fly.ForeColor = System.Drawing.Color.White;
+            this.back_to_save_fly.HoverState.Parent = this.back_to_save_fly;
+            this.back_to_save_fly.Location = new System.Drawing.Point(532, 483);
+            this.back_to_save_fly.Name = "back_to_save_fly";
+            this.back_to_save_fly.ShadowDecoration.Parent = this.back_to_save_fly;
+            this.back_to_save_fly.Size = new System.Drawing.Size(114, 45);
+            this.back_to_save_fly.TabIndex = 38;
+            this.back_to_save_fly.Text = "Voltar";
+            this.back_to_save_fly.Click += new System.EventHandler(this.back_to_save_fly_Click);
             // 
-            // guna2Button1
+            // reset_inputs
             // 
-            this.guna2Button1.CheckedState.Parent = this.guna2Button1;
-            this.guna2Button1.CustomImages.Parent = this.guna2Button1;
-            this.guna2Button1.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
-            this.guna2Button1.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
-            this.guna2Button1.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
-            this.guna2Button1.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
-            this.guna2Button1.DisabledState.Parent = this.guna2Button1;
-            this.guna2Button1.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(128)))), ((int)(((byte)(255)))));
-            this.guna2Button1.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.guna2Button1.ForeColor = System.Drawing.Color.White;
-            this.guna2Button1.HoverState.Parent = this.guna2Button1;
-            this.guna2Button1.Location = new System.Drawing.Point(530, 483);
-            this.guna2Button1.Name = "guna2Button1";
-            this.guna2Button1.ShadowDecoration.Parent = this.guna2Button1;
-            this.guna2Button1.Size = new System.Drawing.Size(114, 45);
-            this.guna2Button1.TabIndex = 38;
-            this.guna2Button1.Text = "Voltar";
-            // 
-            // guna2Button2
-            // 
-            this.guna2Button2.CheckedState.Parent = this.guna2Button2;
-            this.guna2Button2.CustomImages.Parent = this.guna2Button2;
-            this.guna2Button2.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
-            this.guna2Button2.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
-            this.guna2Button2.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
-            this.guna2Button2.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
-            this.guna2Button2.DisabledState.Parent = this.guna2Button2;
-            this.guna2Button2.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(128)))), ((int)(((byte)(255)))));
-            this.guna2Button2.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.guna2Button2.ForeColor = System.Drawing.Color.White;
-            this.guna2Button2.HoverState.Parent = this.guna2Button2;
-            this.guna2Button2.Location = new System.Drawing.Point(384, 483);
-            this.guna2Button2.Name = "guna2Button2";
-            this.guna2Button2.ShadowDecoration.Parent = this.guna2Button2;
-            this.guna2Button2.Size = new System.Drawing.Size(114, 45);
-            this.guna2Button2.TabIndex = 37;
-            this.guna2Button2.Text = "Resetar";
+            this.reset_inputs.CheckedState.Parent = this.reset_inputs;
+            this.reset_inputs.CustomImages.Parent = this.reset_inputs;
+            this.reset_inputs.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.reset_inputs.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.reset_inputs.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.reset_inputs.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.reset_inputs.DisabledState.Parent = this.reset_inputs;
+            this.reset_inputs.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(128)))), ((int)(((byte)(255)))));
+            this.reset_inputs.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.reset_inputs.ForeColor = System.Drawing.Color.White;
+            this.reset_inputs.HoverState.Parent = this.reset_inputs;
+            this.reset_inputs.Location = new System.Drawing.Point(384, 483);
+            this.reset_inputs.Name = "reset_inputs";
+            this.reset_inputs.ShadowDecoration.Parent = this.reset_inputs;
+            this.reset_inputs.Size = new System.Drawing.Size(114, 45);
+            this.reset_inputs.TabIndex = 37;
+            this.reset_inputs.Text = "Resetar";
+            this.reset_inputs.Click += new System.EventHandler(this.reset_inputs_Click);
             // 
             // close_view_fly
             // 
@@ -366,27 +334,84 @@
             this.close_view_fly.UseVisualStyleBackColor = false;
             this.close_view_fly.Click += new System.EventHandler(this.close_view_fly_Click);
             // 
+            // FlightDGV
+            // 
+            dataGridViewCellStyle4.BackColor = System.Drawing.Color.White;
+            this.FlightDGV.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle4;
+            this.FlightDGV.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
+            this.FlightDGV.BackgroundColor = System.Drawing.SystemColors.Control;
+            this.FlightDGV.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.FlightDGV.CellBorderStyle = System.Windows.Forms.DataGridViewCellBorderStyle.SingleHorizontal;
+            this.FlightDGV.ColumnHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None;
+            dataGridViewCellStyle5.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(88)))), ((int)(((byte)(255)))));
+            dataGridViewCellStyle5.Font = new System.Drawing.Font("Segoe UI", 10.5F);
+            dataGridViewCellStyle5.ForeColor = System.Drawing.Color.White;
+            dataGridViewCellStyle5.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle5.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle5.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.FlightDGV.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle5;
+            this.FlightDGV.ColumnHeadersHeight = 30;
+            dataGridViewCellStyle6.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle6.BackColor = System.Drawing.Color.White;
+            dataGridViewCellStyle6.Font = new System.Drawing.Font("Segoe UI", 10.5F);
+            dataGridViewCellStyle6.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(71)))), ((int)(((byte)(69)))), ((int)(((byte)(94)))));
+            dataGridViewCellStyle6.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(229)))), ((int)(((byte)(255)))));
+            dataGridViewCellStyle6.SelectionForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(71)))), ((int)(((byte)(69)))), ((int)(((byte)(94)))));
+            dataGridViewCellStyle6.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
+            this.FlightDGV.DefaultCellStyle = dataGridViewCellStyle6;
+            this.FlightDGV.EnableHeadersVisualStyles = false;
+            this.FlightDGV.GridColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(229)))), ((int)(((byte)(255)))));
+            this.FlightDGV.Location = new System.Drawing.Point(22, 551);
+            this.FlightDGV.Name = "FlightDGV";
+            this.FlightDGV.RowHeadersVisible = false;
+            this.FlightDGV.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
+            this.FlightDGV.Size = new System.Drawing.Size(720, 233);
+            this.FlightDGV.TabIndex = 48;
+            this.FlightDGV.ThemeStyle.AlternatingRowsStyle.BackColor = System.Drawing.Color.White;
+            this.FlightDGV.ThemeStyle.AlternatingRowsStyle.Font = null;
+            this.FlightDGV.ThemeStyle.AlternatingRowsStyle.ForeColor = System.Drawing.Color.Empty;
+            this.FlightDGV.ThemeStyle.AlternatingRowsStyle.SelectionBackColor = System.Drawing.Color.Empty;
+            this.FlightDGV.ThemeStyle.AlternatingRowsStyle.SelectionForeColor = System.Drawing.Color.Empty;
+            this.FlightDGV.ThemeStyle.BackColor = System.Drawing.SystemColors.Control;
+            this.FlightDGV.ThemeStyle.GridColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(229)))), ((int)(((byte)(255)))));
+            this.FlightDGV.ThemeStyle.HeaderStyle.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
+            this.FlightDGV.ThemeStyle.HeaderStyle.BorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None;
+            this.FlightDGV.ThemeStyle.HeaderStyle.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.FlightDGV.ThemeStyle.HeaderStyle.ForeColor = System.Drawing.Color.White;
+            this.FlightDGV.ThemeStyle.HeaderStyle.HeaightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.EnableResizing;
+            this.FlightDGV.ThemeStyle.HeaderStyle.Height = 30;
+            this.FlightDGV.ThemeStyle.ReadOnly = false;
+            this.FlightDGV.ThemeStyle.RowsStyle.BackColor = System.Drawing.Color.White;
+            this.FlightDGV.ThemeStyle.RowsStyle.BorderStyle = System.Windows.Forms.DataGridViewCellBorderStyle.SingleHorizontal;
+            this.FlightDGV.ThemeStyle.RowsStyle.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.FlightDGV.ThemeStyle.RowsStyle.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(71)))), ((int)(((byte)(69)))), ((int)(((byte)(94)))));
+            this.FlightDGV.ThemeStyle.RowsStyle.Height = 22;
+            this.FlightDGV.ThemeStyle.RowsStyle.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(229)))), ((int)(((byte)(255)))));
+            this.FlightDGV.ThemeStyle.RowsStyle.SelectionForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(71)))), ((int)(((byte)(69)))), ((int)(((byte)(94)))));
+            this.FlightDGV.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.FlightDGV_CellContentClick);
+            // 
             // ViewFlights
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
-            this.ClientSize = new System.Drawing.Size(768, 756);
+            this.ClientSize = new System.Drawing.Size(768, 796);
+            this.Controls.Add(this.FlightDGV);
             this.Controls.Add(this.close_view_fly);
-            this.Controls.Add(this.guna2Button1);
-            this.Controls.Add(this.guna2Button2);
-            this.Controls.Add(this.reset_button_login);
-            this.Controls.Add(this.Button_login);
-            this.Controls.Add(this.guna2DataGridView1);
-            this.Controls.Add(this.guna2TextBox1);
+            this.Controls.Add(this.back_to_save_fly);
+            this.Controls.Add(this.reset_inputs);
+            this.Controls.Add(this.delete_button_list_fly);
+            this.Controls.Add(this.att_view_fly);
+            this.Controls.Add(this.Seatnum);
             this.Controls.Add(this.label3);
-            this.Controls.Add(this.guna2DateTimePicker1);
+            this.Controls.Add(this.Fdate);
             this.Controls.Add(this.label6);
-            this.Controls.Add(this.comboBox2);
-            this.Controls.Add(this.comboBox1);
+            this.Controls.Add(this.DstCb);
+            this.Controls.Add(this.SrcCb);
             this.Controls.Add(this.label5);
             this.Controls.Add(this.label4);
-            this.Controls.Add(this.text_input_login);
+            this.Controls.Add(this.Fcode);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.title);
@@ -394,7 +419,8 @@
             this.Name = "ViewFlights";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "ViewFlights";
-            ((System.ComponentModel.ISupportInitialize)(this.guna2DataGridView1)).EndInit();
+            this.Load += new System.EventHandler(this.ViewFlights_Load);
+            ((System.ComponentModel.ISupportInitialize)(this.FlightDGV)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -404,21 +430,21 @@
 
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label title;
-        private Guna.UI2.WinForms.Guna2DateTimePicker guna2DateTimePicker1;
+        private Guna.UI2.WinForms.Guna2DateTimePicker Fdate;
         private System.Windows.Forms.Label label6;
-        private System.Windows.Forms.ComboBox comboBox2;
-        private System.Windows.Forms.ComboBox comboBox1;
+        private System.Windows.Forms.ComboBox DstCb;
+        private System.Windows.Forms.ComboBox SrcCb;
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.Label label4;
-        private Guna.UI2.WinForms.Guna2TextBox text_input_login;
+        private Guna.UI2.WinForms.Guna2TextBox Fcode;
         private System.Windows.Forms.Label label2;
-        private Guna.UI2.WinForms.Guna2TextBox guna2TextBox1;
+        private Guna.UI2.WinForms.Guna2TextBox Seatnum;
         private System.Windows.Forms.Label label3;
-        private Guna.UI2.WinForms.Guna2DataGridView guna2DataGridView1;
-        private Guna.UI2.WinForms.Guna2Button reset_button_login;
-        private Guna.UI2.WinForms.Guna2Button Button_login;
-        private Guna.UI2.WinForms.Guna2Button guna2Button1;
-        private Guna.UI2.WinForms.Guna2Button guna2Button2;
+        private Guna.UI2.WinForms.Guna2Button delete_button_list_fly;
+        private Guna.UI2.WinForms.Guna2Button att_view_fly;
+        private Guna.UI2.WinForms.Guna2Button back_to_save_fly;
+        private Guna.UI2.WinForms.Guna2Button reset_inputs;
         private System.Windows.Forms.Button close_view_fly;
+        private Guna.UI2.WinForms.Guna2DataGridView FlightDGV;
     }
 }
