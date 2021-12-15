@@ -39,11 +39,8 @@ namespace system_airplane
                 {
                     Con.Open();
 
-<<<<<<< HEAD
                     string query = "insert into PassengerTbl values(" + text_input_login.Text + ",'" + nameClient.Text + "', " + nmr_passaport.Text + ", '" + end_passport.Text + "', '" + nat_passenger.SelectedItem.ToString() + "', '" + gen_passenger.SelectedItem.ToString() + "', " + nmr_client.Text + " )";
-=======
-                    string query= "insert into PassengerTbl values("+ text_input_login.Text +",'"+nameClient.Text+"', "+ nmr_passaport.Text + ", '" + end_passport.Text + "', '" + nat_passenger.SelectedItem.ToString() + "', '" + gen_passenger.SelectedItem.ToString() + "', " + nmr_client.Text + " )";
->>>>>>> 1538db826358f02ffff7f24fdf3c76c27cb60b3b
+
 
                     SqlCommand cmd = new SqlCommand(query, Con);
 

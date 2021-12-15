@@ -86,11 +86,11 @@
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(156, 28);
             this.label2.TabIndex = 20;
-<<<<<<< HEAD
+
             this.label2.Text = "CPF Cliente:";
-=======
+
             this.label2.Text = "Cliente CPF:";
->>>>>>> 1538db826358f02ffff7f24fdf3c76c27cb60b3b
+
             this.label2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // label1

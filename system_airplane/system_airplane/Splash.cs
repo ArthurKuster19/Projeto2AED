@@ -16,20 +16,11 @@ namespace system_airplane
         public Splash()
         {
             InitializeComponent();
-<<<<<<< HEAD
-
-            my_progress_bar();
         }
 
         private void progress_bar_ValueChanged(object sender, EventArgs e)
         {
            
-        }
-
-        public void my_progress_bar()
-        {
-
-=======
         }
 
         int startpoint = 0;
@@ -54,7 +45,6 @@ namespace system_airplane
         private void Splash_Load(object sender, EventArgs e)
         {
             timer1.Start();
->>>>>>> 1538db826358f02ffff7f24fdf3c76c27cb60b3b
         }
     }
 

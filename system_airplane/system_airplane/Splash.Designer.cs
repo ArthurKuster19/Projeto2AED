@@ -61,19 +61,7 @@
             // 
             // Myprogress
             // 
-<<<<<<< HEAD
-            this.progress_bar.Location = new System.Drawing.Point(-1, 534);
-            this.progress_bar.Name = "progress_bar";
-            this.progress_bar.ProgressColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(128)))), ((int)(((byte)(255)))));
-            this.progress_bar.ProgressColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(128)))), ((int)(((byte)(255)))));
-            this.progress_bar.ShadowDecoration.Parent = this.progress_bar;
-            this.progress_bar.Size = new System.Drawing.Size(928, 41);
-            this.progress_bar.TabIndex = 2;
-            this.progress_bar.Text = "ProgressBar";
-            this.progress_bar.TextRenderingHint = System.Drawing.Text.TextRenderingHint.SystemDefault;
-            this.progress_bar.UseWaitCursor = true;
-            this.progress_bar.ValueChanged += new System.EventHandler(this.progress_bar_ValueChanged);
-=======
+
             this.Myprogress.Location = new System.Drawing.Point(-1, 534);
             this.Myprogress.Name = "Myprogress";
             this.Myprogress.ProgressColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(128)))), ((int)(((byte)(255)))));
@@ -88,7 +76,6 @@
             // timer1
             // 
             this.timer1.Tick += new System.EventHandler(this.timer1_Tick);
->>>>>>> 1538db826358f02ffff7f24fdf3c76c27cb60b3b
             // 
             // Splash
             // 
