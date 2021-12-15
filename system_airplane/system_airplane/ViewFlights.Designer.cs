@@ -56,11 +56,11 @@
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Cascadia Code", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(219, 82);
+            this.label1.Location = new System.Drawing.Point(256, 83);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(342, 43);
+            this.label1.Size = new System.Drawing.Size(266, 43);
             this.label1.TabIndex = 6;
-            this.label1.Text = "Salvas novos vôos";
+            this.label1.Text = "Lista de voos";
             this.label1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // title

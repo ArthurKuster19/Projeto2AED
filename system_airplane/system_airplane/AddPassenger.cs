@@ -57,5 +57,23 @@ namespace system_airplane
             }
             
         }
+
+        private void view_passenger_Click(object sender, EventArgs e)
+        {
+            ViewPassenger view = new ViewPassenger();
+            view.Show();
+            this.Hide();
+        }
+
+        private void reset_button_addPassenger_Click(object sender, EventArgs e)
+        {
+            text_input_login.Text = "";
+            nameClient.Text = "";
+            nmr_passaport.Text = "";
+            end_passport.Text = "";
+            nmr_client.Text = "";
+            nat_passenger.SelectedItem = null;
+            gen_passenger.SelectedItem = null;
+        }
     }
 }

@@ -1,7 +1,8 @@
 {
   "ExpandedNodes": [
     "",
-    "\\system_airplane"
+    "\\system_airplane",
+    "\\system_airplane\\system_airplane"
   ],
   "PreviewInSolutionExplorer": false
 }
