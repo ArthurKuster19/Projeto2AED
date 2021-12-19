@@ -9,3 +9,5 @@ Sistema de gerenciamento de agenda/cadastro de um aeroporto permitindo criação
 4° semana: Com a parte funcinal do projeto praticamente pronta partimos para melhoramento do seu layout e polindo algumas funçoes.
 18/12- projeto finalizado só restando seu upload e gravaçao do video.
 19/12- Video e código upados.
+
+LINK DO VIDEO : https://www.youtube.com/watch?v=rEEw5C_kZ9s
