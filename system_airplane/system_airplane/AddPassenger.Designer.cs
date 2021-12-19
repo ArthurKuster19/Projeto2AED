@@ -50,6 +50,7 @@
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.close_add_passanger = new System.Windows.Forms.Button();
             this.view_passenger = new Guna.UI2.WinForms.Guna2Button();
+            this.home_button = new Guna.UI2.WinForms.Guna2Button();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -316,7 +317,7 @@
             this.reset_button_addPassenger.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.reset_button_addPassenger.ForeColor = System.Drawing.Color.White;
             this.reset_button_addPassenger.HoverState.Parent = this.reset_button_addPassenger;
-            this.reset_button_addPassenger.Location = new System.Drawing.Point(486, 718);
+            this.reset_button_addPassenger.Location = new System.Drawing.Point(341, 718);
             this.reset_button_addPassenger.Name = "reset_button_addPassenger";
             this.reset_button_addPassenger.ShadowDecoration.Parent = this.reset_button_addPassenger;
             this.reset_button_addPassenger.Size = new System.Drawing.Size(114, 45);
@@ -336,7 +337,7 @@
             this.Button_new_passenger.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.Button_new_passenger.ForeColor = System.Drawing.Color.White;
             this.Button_new_passenger.HoverState.Parent = this.Button_new_passenger;
-            this.Button_new_passenger.Location = new System.Drawing.Point(340, 718);
+            this.Button_new_passenger.Location = new System.Drawing.Point(195, 718);
             this.Button_new_passenger.Name = "Button_new_passenger";
             this.Button_new_passenger.ShadowDecoration.Parent = this.Button_new_passenger;
             this.Button_new_passenger.Size = new System.Drawing.Size(114, 45);
@@ -380,7 +381,7 @@
             this.view_passenger.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.view_passenger.ForeColor = System.Drawing.Color.White;
             this.view_passenger.HoverState.Parent = this.view_passenger;
-            this.view_passenger.Location = new System.Drawing.Point(631, 718);
+            this.view_passenger.Location = new System.Drawing.Point(486, 718);
             this.view_passenger.Name = "view_passenger";
             this.view_passenger.ShadowDecoration.Parent = this.view_passenger;
             this.view_passenger.Size = new System.Drawing.Size(114, 45);
@@ -388,12 +389,34 @@
             this.view_passenger.Text = "Visualizar Passageiros";
             this.view_passenger.Click += new System.EventHandler(this.view_passenger_Click);
             // 
+            // home_button
+            // 
+            this.home_button.CheckedState.Parent = this.home_button;
+            this.home_button.CustomImages.Parent = this.home_button;
+            this.home_button.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.home_button.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.home_button.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.home_button.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.home_button.DisabledState.Parent = this.home_button;
+            this.home_button.FillColor = System.Drawing.Color.Teal;
+            this.home_button.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.home_button.ForeColor = System.Drawing.Color.White;
+            this.home_button.HoverState.Parent = this.home_button;
+            this.home_button.Location = new System.Drawing.Point(630, 718);
+            this.home_button.Name = "home_button";
+            this.home_button.ShadowDecoration.Parent = this.home_button;
+            this.home_button.Size = new System.Drawing.Size(114, 45);
+            this.home_button.TabIndex = 39;
+            this.home_button.Text = "Home";
+            this.home_button.Click += new System.EventHandler(this.home_button_Click);
+            // 
             // AddPassenger
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
             this.ClientSize = new System.Drawing.Size(768, 775);
+            this.Controls.Add(this.home_button);
             this.Controls.Add(this.view_passenger);
             this.Controls.Add(this.close_add_passanger);
             this.Controls.Add(this.pictureBox1);
@@ -447,5 +470,6 @@
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.Button close_add_passanger;
         private Guna.UI2.WinForms.Guna2Button view_passenger;
+        private Guna.UI2.WinForms.Guna2Button home_button;
     }
 }

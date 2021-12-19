@@ -31,5 +31,29 @@ namespace system_airplane
         {
 
         }
+
+        private void reset_button_login_Click(object sender, EventArgs e)
+        {
+            text_input_login.Text = "";
+            text_input_password.Text = "";
+        }
+
+        private void Button_login_Click(object sender, EventArgs e)
+        {
+            if (text_input_login.Text == "" || text_input_password.Text == "")
+            {
+                MessageBox.Show("Campos obigratórios");
+            }
+            else if (text_input_login.Text == "admin" && text_input_password.Text == "admin")
+            {
+                Home home = new Home();
+                home.Show();
+                this.Hide();
+            }else
+            {
+                MessageBox.Show("Usuário inválido");
+
+            }
+        }
     }
 }

@@ -105,6 +105,7 @@
             this.Button_login.Size = new System.Drawing.Size(114, 45);
             this.Button_login.TabIndex = 5;
             this.Button_login.Text = "Entrar";
+            this.Button_login.Click += new System.EventHandler(this.Button_login_Click);
             // 
             // reset_button_login
             // 
@@ -125,6 +126,7 @@
             this.reset_button_login.Size = new System.Drawing.Size(114, 45);
             this.reset_button_login.TabIndex = 6;
             this.reset_button_login.Text = "Resetar";
+            this.reset_button_login.Click += new System.EventHandler(this.reset_button_login_Click);
             // 
             // guna2ContextMenuStrip1
             // 
@@ -182,7 +184,7 @@
             this.text_input_login.HoverState.Parent = this.text_input_login;
             this.text_input_login.Location = new System.Drawing.Point(610, 208);
             this.text_input_login.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
-            this.text_input_login.MaxLength = 4;
+            this.text_input_login.MaxLength = 10;
             this.text_input_login.Name = "text_input_login";
             this.text_input_login.PasswordChar = '\0';
             this.text_input_login.PlaceholderText = "Digite seu Id\r\n";

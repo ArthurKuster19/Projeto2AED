@@ -46,6 +46,7 @@
             this.label6 = new System.Windows.Forms.Label();
             this.FDate = new Guna.UI2.WinForms.Guna2DateTimePicker();
             this.View_fly = new Guna.UI2.WinForms.Guna2Button();
+            this.home_button = new Guna.UI2.WinForms.Guna2Button();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -319,12 +320,34 @@
             this.View_fly.Text = "Visualizar voos";
             this.View_fly.Click += new System.EventHandler(this.View_fly_Click);
             // 
+            // home_button
+            // 
+            this.home_button.CheckedState.Parent = this.home_button;
+            this.home_button.CustomImages.Parent = this.home_button;
+            this.home_button.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.home_button.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.home_button.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.home_button.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.home_button.DisabledState.Parent = this.home_button;
+            this.home_button.FillColor = System.Drawing.Color.Teal;
+            this.home_button.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.home_button.ForeColor = System.Drawing.Color.White;
+            this.home_button.HoverState.Parent = this.home_button;
+            this.home_button.Location = new System.Drawing.Point(629, 535);
+            this.home_button.Name = "home_button";
+            this.home_button.ShadowDecoration.Parent = this.home_button;
+            this.home_button.Size = new System.Drawing.Size(114, 45);
+            this.home_button.TabIndex = 92;
+            this.home_button.Text = "Home";
+            this.home_button.Click += new System.EventHandler(this.home_button_Click);
+            // 
             // FlightTbl
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
             this.ClientSize = new System.Drawing.Size(768, 666);
+            this.Controls.Add(this.home_button);
             this.Controls.Add(this.View_fly);
             this.Controls.Add(this.FDate);
             this.Controls.Add(this.label6);
@@ -371,5 +394,6 @@
         private System.Windows.Forms.Label label6;
         private Guna.UI2.WinForms.Guna2DateTimePicker FDate;
         private Guna.UI2.WinForms.Guna2Button View_fly;
+        private Guna.UI2.WinForms.Guna2Button home_button;
     }
 }

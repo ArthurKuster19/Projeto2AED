@@ -18,3 +18,4 @@ D:\Documentos\Projeto2AED\system_airplane\system_airplane\obj\Debug\system_airpl
 D:\Documentos\Projeto2AED\system_airplane\system_airplane\obj\Debug\system_airplane.ViewPassenger.resources
 D:\Documentos\Projeto2AED\system_airplane\system_airplane\obj\Debug\system_airplane.Tickets.resources
 D:\Documentos\Projeto2AED\system_airplane\system_airplane\obj\Debug\system_airplane.CancellationTbl.resources
+D:\Documentos\Projeto2AED\system_airplane\system_airplane\obj\Debug\system_airplane.Home.resources
